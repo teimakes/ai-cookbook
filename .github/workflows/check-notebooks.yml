@@ -1,0 +1,18 @@
+# API를 호출하지 않고 노트북 형식과 Python 문법을 검사한다.
+
+name: check-notebooks
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install nbformat
+      - run: python scripts/check_notebooks.py

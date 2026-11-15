@@ -64,7 +64,7 @@ python -m jupyterlab generate.ipynb
 | `MODELS` | 수정 전 평가할 모델 ID 목록 |
 | `PREFIX_MODELS` | system 지시·prefix를 함께 적용할 모델 목록 |
 | `SYSTEM_MODELS` | prefix 없이 system 지시만 적용할 모델 목록 |
-| `N_PROBLEMS` | 각 평가에서 사용할 앞쪽 문항 수. 기본값은 `5`, 전체 문항은 `None` |
+| `N_PROBLEMS` | 각 평가에서 사용할 앞쪽 문항 수. 기본값은 `19`, 전체 문항은 `None` |
 | `KOREAN_INSTRUCTION` | 두 조건에서 한국어 질문 뒤에 붙이는 같은 언어 지시 |
 | `IFEVAL_SYSTEM`, `IFEVAL_PREFIX` | 수정 후 IFEval의 system 지시와 assistant prefix |
 | `KOREAN_SYSTEM`, `KOREAN_PREFIX` | 수정 후 한국어 평가의 system 지시와 assistant prefix |
@@ -72,7 +72,7 @@ python -m jupyterlab generate.ipynb
 
 기본 모델은 `mistral-small-2603`, `mistral-large-4`, `zai-glm-5-3`, `deepseek-v4-1-flash-1017`이다.
 
-기본 설정은 수정 전 4개 모델 40회, system 지시·prefix 조건 3개 모델 30회, system 지시만 적용하는 Mistral Large 조건 10회로 총 80회 생성 요청이다. 한국어만 전후 평가하면 40회다. 생성 셀을 다시 실행하면 새 API 요청이 발생하고 해당 결과 파일을 덮어쓴다. 전후 비교 중에는 모델 목록과 문항을 바꾸지 않는다.
+기본 설정(`N_PROBLEMS = 19`)은 수정 전 4개 모델 152회, system 지시·prefix 조건 3개 모델 114회, system 지시만 적용하는 Mistral Large 조건 38회로 총 304회 생성 요청이다. 요청 수는 `(모델 수 × 문항 수)`를 IFEval과 한국어 평가에서 각각 더한 값이다. 한국어만 전후 평가하면 152회다. 다시 실행하면 이미 저장된 모델·문항 조합은 건너뛰고, 없는 조합에만 새 API 요청을 보낸다. 지시·prefix·문항 수 등 조건을 바꾼 실험은 결과 파일명을 바꿔 기존 결과를 보존한다. 전후 비교 중에는 모델 목록과 문항을 바꾸지 않는다.
 
 생성 옵션은 SDK와 모델의 기본값을 사용한다. SDK에서 추론 블록으로 구분한 부분은 제외하고 텍스트 블록을 평가한다. 일반 텍스트에 포함된 태그나 다른 언어의 문장은 그대로 검사한다.
 
@@ -94,7 +94,7 @@ results/
 └── korean_system_comparison.png
 ```
 
-각 JSON 파일은 문항별 결과의 배열이다. 한 문항을 완료할 때마다 저장하므로 실행 도중 오류가 나도 그전에 완료한 결과는 남는다. 다시 실행하면 처음 문항부터 평가하며 자동으로 이어서 실행하지 않는다.
+각 JSON 파일은 문항별 결과의 배열이다. 한 문항을 완료할 때마다 저장하므로 실행 도중 오류가 나도 그전에 완료한 결과는 남는다. 다시 실행하면 이미 저장된 모델·문항 조합은 건너뛰고 나머지를 이어서 평가한다.
 
 | 항목 | 내용 |
 | --- | --- |

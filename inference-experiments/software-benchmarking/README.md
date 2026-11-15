@@ -58,23 +58,10 @@ Transformers의 로더는 `Qwen3_5ForConditionalGeneration`을 사용한다. 클
 
 노트북과 코드는 GPU 실측 결과를 포함하지 않는다. H100·B300 실행, 회사 환경의 vLLM 버전 호환성, 실제 성능 수치는 미확인이다. CLI 옵션과 합성 데이터 길이 설정은 현재 공식 문서 기준이며, 이전 버전에서는 옵션 이름뿐 아니라 의미도 다를 수 있다.
 
-모델을 실행하지 않는 Python 문법 확인은 이 폴더에서 다음과 같이 수행할 수 있다.
+노트북과 Python 파일의 문법은 저장소 루트에서 다음 명령으로 검사한다. API를 호출하지 않는다.
 
 ```bash
-python - <<'PY'
-import ast
-import json
-from pathlib import Path
-
-for path in Path(".").glob("*.py"):
-    ast.parse(path.read_text(encoding="utf-8"), filename=str(path))
-for path in Path(".").glob("*.ipynb"):
-    notebook = json.loads(path.read_text(encoding="utf-8"))
-    for cell in notebook["cells"]:
-        if cell["cell_type"] == "code":
-            ast.parse("".join(cell["source"]), filename=str(path))
-print("Python syntax OK")
-PY
+python scripts/check_notebooks.py
 ```
 
 ## 출처
