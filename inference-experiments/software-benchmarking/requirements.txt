@@ -1,0 +1,4 @@
+# 기존 GPU 환경의 vLLM, PyTorch, Transformers, Jupyter 커널을 사용한다.
+# Qwen3.8-27B를 지원하는 vLLM과 Transformers가 필요하다. 공식 안내는 README를 참고한다.
+# 이 실습을 위해 추가 설치할 패키지는 없다.
+# GPU 환경에서 실행을 확인하지 않았으므로 버전을 임의로 지정하지 않는다.

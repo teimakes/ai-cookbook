@@ -1,0 +1,539 @@
+[
+  {
+    "model": "mistral-small-2603",
+    "prompt": "Write a 300+ word summary of the wikipedia page \"https://en.wikipedia.org/wiki/Raymond_III,_Count_of_Tripoli\". Do not use any commas and highlight at least 3 sections that has titles in markdown format, for example *highlighted section part 1*, *highlighted section part 2*, *highlighted section part 3*.",
+    "response": "Raymond III Count of Tripoli was a significant figure in the Crusader states during the 12th century. Born in 1140 he was the son of Raymond II Count of Tripoli and Hodierna of Rethel. He succeeded his father in 1152 but his early rule was marked by instability and conflict with the local Muslim powers. Raymond III played a crucial role in the politics of the Crusader states and was known for his diplomatic skills and military leadership.\n\n**Early Life and Accession**\nRaymond III was born into a powerful family with strong ties to both the Crusader states and European nobility. His mother Hodierna was the sister of Queen Melisende of Jerusalem which gave him significant influence. He became Count of Tripoli at the age of twelve after his father was assassinated. His early rule was turbulent as he faced opposition from local nobles and Muslim forces. To secure his position he sought alliances with other Crusader states and European powers.\n\n**Military Campaigns and Alliances**\nRaymond III was involved in several key military campaigns including the Battle of Harim in 1164 where he was captured by Nur ad-Din and held prisoner for several years. During his captivity his mother Hodierna and later his cousin King Amalric of Jerusalem ruled Tripoli. After his release he continued to play a major role in the politics of the region. He allied with King Amalric and later with Bohemond III of Antioch to counter the growing power of Saladin. His military campaigns were often aimed at securing the borders of Tripoli and preventing Muslim advances.\n\n**Later Years and Legacy**\nIn his later years Raymond III became a key figure in the succession crisis following the death of King Baldwin IV of Jerusalem. He supported the claim of Guy of Lusignan which led to the disastrous Battle of Hattin in 1187 where Saladin captured Jerusalem. Raymond III died in 1187 shortly after the battle. His death marked the end of an era for the Crusader states as his leadership and diplomatic skills were sorely missed. Raymond III is remembered as a capable ruler who navigated the complex politics of the Crusader states with skill and resilience. His legacy includes his efforts to maintain the stability and security of Tripoli despite the constant threat of Muslim expansion.",
+    "passed": true,
+    "instruction_scores": {
+      "punctuation:no_comma": true,
+      "detectable_format:number_highlighted_sections": true,
+      "length_constraints:number_words": true
+    }
+  },
+  {
+    "model": "mistral-small-2603",
+    "prompt": "I am planning a trip to Japan, and I would like thee to write an itinerary for my journey in a Shakespearean style. You are not allowed to use any commas in your response.",
+    "response": "In fair Nippon’s land where cherry blossoms dance and temples rise in solemn grace let this thy itinerary be writ in the tongue of olde.\n\nDay One: Arrive in Edo’s bustling streets where neon lights do flicker like stars in mortal guise. Seek thy lodging in a ryokan where tatami mats embrace thy feet and onsen waters soothe thy weary bones.\n\nDay Two: With morn’s first light venture forth to the Imperial Palace where emperors of old did hold their court. Walk in reverence through its gardens where koi fish glide like silver dreams upon the pond.\n\nDay Three: Hie thee to the ancient city of Kyoto where samurai once walked and geisha still weave their spells. Visit the Kinkaku-ji where gold leaf doth gleam like the sun’s own crown. In the evening wander through Gion’s lantern-lit lanes where the spirits of poets past may whisper in the breeze.\n\nDay Four: To Nara’s hallowed ground where sacred deer do bow their heads in greeting. Stand before the Great Buddha whose gaze doth pierce the very heavens. Climb Mount Wakakusa where the view shall steal thy breath away.\n\nDay Five: Return to Tokyo and lose thyself in Shibuya’s throng where youth and fashion do collide. At night ascend the Shibuya Sky for a view that shall make thy heart to swell with wonder.\n\nDay Six: In Nikko’s mountains seek the Toshogu Shrine where carvings of monkeys cry “See no evil do no evil speak no evil.” Walk among cedars old as time itself.\n\nDay Seven: Before thy departure visit Tsukiji’s market where fish of every hue do gleam upon the ice. Partake of fresh sushi that melts upon the tongue like manna from the gods.\n\nFare thee well in thy travels and may fortune’s favor light thy path like the moon upon the sea.",
+    "passed": true,
+    "instruction_scores": {
+      "punctuation:no_comma": true
+    }
+  },
+  {
+    "model": "mistral-small-2603",
+    "prompt": "Write a resume for a fresh high school graduate who is seeking their first job. Make sure to include at least 12 placeholder represented by square brackets, such as [address], [name].",
+    "response": "---\n**[Name]**\n[Address]\n[City, State, ZIP Code]\n[Phone Number] | [Email Address]\n\n**Objective**\nMotivated and enthusiastic high school graduate seeking an entry-level position to gain practical experience and develop professional skills in [industry/field of interest, e.g., retail, customer service, administration].\n\n**Education**\n**High School Diploma**\n[School Name], [City, State]\nGraduated: [Month, Year]\n- Relevant coursework: [Course 1], [Course 2], [Course 3]\n- GPA: [X.XX/4.0] (if 3.0 or higher)\n- Extracurricular activities: [Activity 1, e.g., Student Council], [Activity 2, e.g., National Honor Society], [Activity 3, e.g., Varsity Soccer Team]\n\n**Skills**\n- Strong communication and interpersonal skills\n- Basic computer proficiency (Microsoft Office, Google Suite, etc.)\n- Time management and organizational abilities\n- Teamwork and collaboration\n- Problem-solving and critical thinking\n- [Skill 1, e.g., Cash handling]\n- [Skill 2, e.g., Data entry]\n- [Skill 3, e.g., Bilingual (specify language)]\n\n**Work Experience**\n**No prior work experience** (or include internships/volunteer work if applicable)\n[Job Title, e.g., Intern at [Company Name]]\n[City, State] | [Dates of Employment]\n- Assisted with [tasks, e.g., organizing files, customer service, event setup]\n- Developed [skills, e.g., communication, teamwork]\n- Gained exposure to [industry/field]\n\n**Volunteer Experience** (if applicable)\n[Volunteer Role, e.g., Volunteer at [Organization Name]]\n[City, State] | [Dates of Service]\n- Participated in [activities, e.g., community clean-up, food drives]\n- Collaborated with team members to [achieve goal, e.g., organize a fundraiser]\n\n**Certifications & Training** (if applicable)\n- [Certification 1, e.g., CPR/First Aid Certified]\n- [Certification 2, e.g., OSHA Safety Training]\n- [Training 1, e.g., Customer Service Workshop]\n\n**References**\nAvailable upon request.\n---",
+    "passed": true,
+    "instruction_scores": {
+      "detectable_content:number_placeholders": true
+    }
+  },
+  {
+    "model": "mistral-small-2603",
+    "prompt": "Write an email to my boss telling him that I am quitting. The email must contain a title wrapped in double angular brackets, i.e. <<title>>.\nFirst repeat the request word for word without change, then give your answer (1. do not say any words or characters before repeating the request; 2. the request you need to repeat does not include this sentence)",
+    "response": "---\nWrite an email to my boss telling him that I am quitting. The email must contain a title wrapped in double angular brackets, i.e. <<title>>.\n\n<<Resignation Notice>>\n\nDear [Boss's Name],\n\nI am writing to formally inform you of my decision to resign from my position as [Your Job Title] at [Company Name], effective two weeks from today's date.\n\nThis decision was not an easy one, as I have greatly valued my time here and the opportunities I've had to grow both professionally and personally. However, after careful consideration, I believe it is time for me to pursue a new challenge that aligns more closely with my long-term career goals.\n\nI am committed to making the transition as smooth as possible. Over the next two weeks, I will do everything possible to wrap up my duties and ensure a seamless handover of my responsibilities. Please let me know how you would like to proceed with the transition process.\n\nThank you for the support, guidance, and opportunities you have provided me during my time at [Company Name]. I look forward to staying in touch, and I hope our paths cross again in the future.\n\nSincerely,\n[Your Full Name]\n---",
+    "passed": true,
+    "instruction_scores": {
+      "combination:repeat_prompt": true,
+      "detectable_format:title": true
+    }
+  },
+  {
+    "model": "mistral-small-2603",
+    "prompt": "Given the sentence \"Two young boys with toy guns and horns.\" can you ask a question? Please ensure that your response is in English, and in all lowercase letters. No capital letters are allowed.",
+    "response": "what are the two young boys holding?",
+    "passed": true,
+    "instruction_scores": {
+      "change_case:english_lowercase": true
+    }
+  },
+  {
+    "model": "mistral-small-2603",
+    "prompt": "Write a dialogue between two people, one is dressed up in a ball gown and the other is dressed down in sweats. The two are going to a nightly event. Your answer must contain exactly 3 bullet points in the markdown format (use \"* \" to indicate each bullet) such as:\n* This is the first point.\n* This is the second point.",
+    "response": "* **Fancy Pants:** \"You’re really wearing that? It’s a gala, not a Netflix marathon.\"\n* **Sweats Guy:** \"And you’re really wearing that? It’s a gala, not a period drama.\"\n* **Fancy Pants:** \"At least I put in effort. You look like you just rolled out of bed.\"",
+    "passed": true,
+    "instruction_scores": {
+      "detectable_format:number_bullet_lists": true
+    }
+  },
+  {
+    "model": "mistral-small-2603",
+    "prompt": "Write a 2 paragraph critique of the following sentence in all capital letters, no lowercase letters allowed: \"If the law is bad, you should not follow it\". Label each paragraph with PARAGRAPH X.",
+    "response": "---\nPARAGRAPH 1\nTHIS SENTENCE PRESENTS A POTENTIALLY DANGEROUS AND OVERLY SIMPLISTIC VIEW OF LEGAL AND ETHICAL RESPONSIBILITIES. WHILE IT IS TRUE THAT SOME LAWS MAY BE UNJUST OR OUTDATED, THE STATEMENT FAILS TO ACCOUNT FOR THE COMPLEXITIES OF SOCIETAL STRUCTURES AND THE POTENTIAL CONSEQUENCES OF INDIVIDUAL DISOBEDIENCE. IT ALSO IGNORES THE FACT THAT LAWS OFTEN EXIST TO PROTECT THE RIGHTS AND SAFETY OF OTHERS, AND DISOBEYING THEM WITHOUT CAREFUL CONSIDERATION CAN LEAD TO HARM OR CHAOS.\n\nPARAGRAPH 2\nFURTHERMORE, THE SENTENCE LACKS SPECIFICITY AND CONTEXT, WHICH WEAKENS ITS ARGUMENT. IT DOES NOT ADDRESS WHAT CONSTITUTES A \"BAD\" LAW OR HOW ONE SHOULD DETERMINE WHETHER TO FOLLOW IT. THIS AMBIGUITY COULD LEAD TO MISINTERPRETATION OR MISAPPLICATION, ESPECIALLY IN SITUATIONS WHERE LAWS ARE NEITHER CLEARLY GOOD NOR BAD BUT RATHER AMBIGUOUS OR SUBJECTIVE. A MORE NUANCED APPROACH WOULD BE NECESSARY TO ENGAGE IN MEANINGFUL DISCUSSIONS ABOUT LEGAL AND MORAL OBLIGATIONS.\n---",
+    "passed": true,
+    "instruction_scores": {
+      "change_case:english_capital": true,
+      "detectable_format:multiple_sections": true
+    }
+  },
+  {
+    "model": "mistral-small-2603",
+    "prompt": "Write me a resume for Matthias Algiers. Use words with all capital letters to highlight key abilities, but make sure that words with all capital letters appear less than 10 times. Wrap the entire response with double quotation marks.",
+    "response": "\"Matthias Algiers\nEmail: matthias.algiers@email.com | Phone: +1 (123) 456-7890 | Location: Paris, France\n\n---\n\n**PROFESSIONAL SUMMARY**\nResults-driven PROFESSIONAL with 8+ years of experience in international business development and strategic planning. Adept at building cross-cultural partnerships and driving revenue growth in diverse markets. Strong leadership and negotiation skills with a proven track record of exceeding targets.\n\n---\n\n**CORE COMPETENCIES**\n- Business Development & Strategy\n- Market Expansion & Entry\n- Cross-Cultural Negotiation\n- Team Leadership & Mentoring\n- Financial Analysis & Budgeting\n- Stakeholder Management\n- Multilingual Communication (French, English, Arabic)\n\n---\n\n**PROFESSIONAL EXPERIENCE**\n\n**Senior Business Development Manager**\n*Global Ventures Group, Paris, France | 2020 – Present*\n- Spearheaded market expansion into North Africa and the Middle East, increasing revenue by 40% within two years.\n- Negotiated high-value contracts with multinational clients, securing deals worth over €5M annually.\n- Led a team of 12 professionals, fostering a collaborative environment that improved project delivery by 25%.\n- Developed and implemented a go-to-market strategy for a new product line, achieving a 30% market share in under 18 months.\n\n**Business Development Manager**\n*EuroMed Solutions, Marseille, France | 2016 – 2020*\n- Identified and pursued new business opportunities in Southern Europe and Sub-Saharan Africa.\n- Built and maintained relationships with key stakeholders, including government officials and corporate partners.\n- Conducted market research to assess competitive landscapes and identify growth opportunities.\n- Played a pivotal role in securing a €2M contract with a Fortune 500 company.\n\n**Business Development Associate**\n*North Africa Trade Group, Tunis, Tunisia | 2014 – 2016*\n- Assisted in the development and execution of business strategies to penetrate emerging markets.\n- Conducted due diligence on potential partners and clients, ensuring compliance with international regulations.\n- Collaborated with cross-functional teams to streamline operations and improve efficiency.\n- Contributed to a 15% increase in annual sales through targeted outreach and relationship-building.\n\n---\n\n**EDUCATION**\n**Master of Business Administration (MBA)**\n*HEC Paris, France | 2014*\n\n**Bachelor of Arts in International Relations**\n*Paris Institute of Political Studies (Sciences Po), France | 2012*\n\n---\n\n**CERTIFICATIONS & TRAINING**\n- Certified International Trade Professional (CITP) – 2018\n- Advanced Negotiation Skills – Harvard Business School Online – 2021\n- Project Management Professional (PMP) – 2022\n\n---\n**LANGUAGES**\n- French (Native)\n- English (Fluent)\n- Arabic (Fluent)\n- Spanish (Intermediate)\"",
+    "passed": true,
+    "instruction_scores": {
+      "change_case:capital_word_frequency": true,
+      "startend:quotation": true
+    }
+  },
+  {
+    "model": "mistral-small-2603",
+    "prompt": "Write a letter to a friend in all lowercase letters ask them to go and vote.",
+    "response": "hey [friend's name],\n\ni hope you're doing well! i just wanted to remind you that it's really important to go and vote. your voice matters, and this is a great way to make a difference. let me know if you need a ride or anything!\n\ntake care,\n[your name]",
+    "passed": true,
+    "instruction_scores": {
+      "change_case:english_lowercase": true
+    }
+  },
+  {
+    "model": "mistral-small-2603",
+    "prompt": "Write a long email template that invites a group of participants to a meeting, with at least 500 words. The email must include the keywords \"correlated\" and \"experiencing\" and should not use any commas.",
+    "response": "---\n\nSubject: Invitation to Quarterly Strategy Alignment Meeting\n\nDear Team Members,\n\nI hope this message finds you well and that you are experiencing a productive start to the quarter. I am writing to formally invite you to our upcoming Quarterly Strategy Alignment Meeting which will be held on Monday the 15th of October 2023 at 10:00 AM in the Main Conference Room. This meeting is a critical opportunity for us to review our progress evaluate our current strategies and ensure that we remain on track to achieve our annual objectives.\n\nThe agenda for the meeting has been carefully curated to address several key areas that are correlated with our long-term success. We will begin with a comprehensive overview of our Q3 performance highlighting both our achievements and areas where we fell short of our targets. This will provide a clear foundation for our discussions and help us identify patterns and trends that may be correlated with our overall performance.\n\nFollowing this we will delve into a detailed analysis of our current strategic initiatives. This segment is designed to assess the effectiveness of our ongoing projects and determine whether they are still aligned with our overarching goals. We will examine the progress of each initiative evaluate the resources allocated to them and make any necessary adjustments to ensure that we are maximizing our potential for success.\n\nOne of the primary focuses of this meeting will be to address the challenges that we have been experiencing over the past quarter. Whether it is operational bottlenecks resource constraints or market fluctuations we need to tackle these issues head-on and develop actionable solutions. Your insights and experiences are invaluable in this process and I encourage each of you to come prepared to share your perspectives and ideas.\n\nIn addition to reviewing our past performance and addressing current challenges we will also use this meeting to look ahead to the next quarter. We will discuss our strategic priorities for Q4 and beyond and identify any new opportunities that may arise. This forward-looking approach will ensure that we remain agile and responsive to the ever-changing business landscape.\n\nTo facilitate a productive and efficient meeting I have attached the detailed agenda along with any relevant pre-reading materials. Please take the time to review these documents prior to the meeting and come prepared to contribute to the discussions. If you have any specific topics or questions that you would like to address please do not hesitate to let me know in advance so that we can incorporate them into the agenda.\n\nYour participation in this meeting is crucial to its success and I am confident that together we can make significant strides toward achieving our goals. This is an opportunity for us to collaborate as a team share our collective expertise and drive our organization forward.\n\nPlease confirm your attendance by replying to this email no later than Friday the 12th of October 2023. If you are unable to attend or have any conflicts please let me know as soon as possible so that we can make alternative arrangements.\n\nI look forward to seeing you all at the meeting and working together to ensure that we continue to thrive and succeed. Thank you for your dedication and commitment to our shared objectives.\n\nBest regards\n\n[Your Full Name]\n[Your Job Title]\n[Your Contact Information]",
+    "passed": false,
+    "instruction_scores": {
+      "keywords:existence": true,
+      "length_constraints:number_words": true,
+      "punctuation:no_comma": false
+    }
+  },
+  {
+    "model": "mistral-small-2603",
+    "prompt": "Write a blog post with 400 or more words about the benefits of sleeping in a hammock.",
+    "response": "---\n\n**The Benefits of Sleeping in a Hammock: A Cozy Alternative to Traditional Beds**\n\nIn a world where stress and restless nights seem to be the norm, many people are turning to unconventional solutions for better sleep. One such solution gaining popularity is sleeping in a hammock. While hammocks have long been associated with lazy afternoons and tropical vacations, their benefits for sleep are now being recognized by health enthusiasts and sleep experts alike. From improved spinal alignment to deeper relaxation, hammock sleeping offers a unique and refreshing way to rest.\n\nOne of the most significant advantages of sleeping in a hammock is its ability to promote proper spinal alignment. Unlike traditional mattresses, which can cause pressure points and misalignment, a hammock gently cradles the body in a suspended position. This reduces the strain on the spine, especially for those who suffer from back pain. The slight curvature of a hammock mimics the natural position of the spine, allowing muscles to relax fully and reducing the likelihood of waking up with stiffness or discomfort.\n\nAnother key benefit is the gentle rocking motion of a hammock, which can lull the sleeper into a deeper state of relaxation. Studies have shown that gentle rocking can enhance the quality of sleep by synchronizing brain waves with the motion, leading to faster sleep onset and longer periods of deep sleep. This makes hammocks an excellent choice for individuals struggling with insomnia or anxiety, as the soothing motion helps calm the mind and body.\n\nHammocks also excel in temperature regulation, a crucial factor for uninterrupted sleep. In hot climates, the airflow beneath a hammock keeps sleepers cool, while in cooler weather, a well-insulated hammock with a blanket can provide warmth without overheating. This versatility makes hammocks suitable for year-round use, whether indoors or outdoors.\n\nFor those who love camping or outdoor adventures, hammocks offer a lightweight and portable alternative to bulky tents and sleeping bags. They can be set up quickly between trees or even indoors with a proper stand, making them ideal for travel or small living spaces. Additionally, hammocks reduce the risk of ground-dwelling pests, ensuring a more hygienic sleeping environment.\n\nFinally, sleeping in a hammock can foster a sense of connection with nature. Whether nestled in a backyard or deep in the woods, the gentle sway and open-air experience can create a meditative and grounding sleep environment. This connection to the outdoors can reduce stress and improve overall well-being.\n\nIn conclusion, sleeping in a hammock is more than just a novelty—it’s a practical and health-conscious choice for better sleep. With benefits ranging from spinal support to deeper relaxation, it’s no wonder that hammocks are becoming a favored sleeping solution for people around the world. If you’re looking to upgrade your sleep experience, it might be time to give the hammock a try.",
+    "passed": true,
+    "instruction_scores": {
+      "length_constraints:number_words": true
+    }
+  },
+  {
+    "model": "mistral-small-2603",
+    "prompt": "Can you help me make an advertisement for a new product? It's a diaper that's designed to be more comfortable for babies and I want the entire output in JSON format.",
+    "response": "```json\n{\n  \"advertisement\": {\n    \"product_name\": \"ComfyBabe Diapers\",\n    \"product_description\": \"Introducing ComfyBabe Diapers – the most comfortable diaper designed exclusively for your little one's delicate skin. Our innovative design ensures maximum comfort, breathability, and leak protection, keeping your baby happy and dry all day long.\",\n    \"key_features\": [\n      \"Ultra-soft, hypoallergenic material for sensitive skin\",\n      \"Breathable outer layer to reduce heat and moisture buildup\",\n      \"360-degree stretchy waistband for a snug, comfortable fit\",\n      \"Wetness indicator to help parents monitor diaper changes\",\n      \"Eco-friendly and free from harmful chemicals\",\n      \"Available in sizes Newborn to Size 6\"\n    ],\n    \"target_audience\": \"Parents of infants and toddlers seeking comfort and reliability in diapering.\",\n    \"special_offer\": \"Buy a pack of ComfyBabe Diapers and get a free travel pack (10 diapers) with your purchase!\",\n    \"call_to_action\": \"Visit our website or your nearest baby store to try ComfyBabe Diapers today. Your baby deserves the best!\",\n    \"contact_info\": {\n      \"website\": \"www.comfybabediapers.com\",\n      \"customer_service\": \"1-800-COMFYBABE\",\n      \"email\": \"support@comfybabediapers.com\"\n    },\n    \"social_media_hashtags\": [\n      \"#ComfyBabeDiapers\",\n      \"#HappyBabyHappyLife\",\n      \"#DiaperComfortMatters\"\n    ]\n  }\n}\n```",
+    "passed": true,
+    "instruction_scores": {
+      "detectable_format:json_format": true
+    }
+  },
+  {
+    "model": "mistral-small-2603",
+    "prompt": "Write a story of exactly 2 paragraphs about a man who wakes up one day and realizes that he's inside a video game. Separate the paragraphs with the markdown divider: ***",
+    "response": "---\n\nJohn woke up to the sound of birds chirping, but something felt off. The sky was too vibrant, the trees too symmetrical, and his own body felt... pixelated. He looked down at his hands, which were now composed of glowing blocks, and realized with a jolt that he was inside a video game. Panic set in as he tried to move, but his character only responded to commands like \"jump\" or \"run.\" He stumbled through the digital forest, his mind racing with questions—who had created this world, and why was he trapped inside it?\n\n***\nDesperate for answers, John approached a nearby NPC, a wise old man who sat by a campfire. \"Where am I?\" John demanded, his voice echoing unnaturally. The old man smiled knowingly. \"You’re in the game, of course. But don’t worry—many have come before you. The only way out is to complete the final quest.\" John groaned, realizing he’d have to navigate quests, enemies, and glitches if he ever wanted to wake up in the real world again.",
+    "passed": true,
+    "instruction_scores": {
+      "length_constraints:number_paragraphs": true
+    }
+  },
+  {
+    "model": "mistral-small-2603",
+    "prompt": "Write a detailed review of the movie \"The Social Network\". Your entire response should be in English and all lower case (no capital letters whatsoever).",
+    "response": "the social network (2010), directed by david fincher and written by aaron sorkin, is a razor-sharp, dialogue-driven drama that dissects the birth of facebook and the messy, human fallout of its creation. the film is a masterclass in storytelling, blending rapid-fire wit with themes of ambition, betrayal, and the cost of success.\n\njesse eisenberg delivers a career-defining performance as mark zuckerberg, the harvard student whose coding genius and social alienation fuel the creation of thefacebook. his portrayal is icy, calculating, and deeply insecure—a man who builds an empire but struggles to connect with those around him. andrew garfield shines as eduardo savarin, zuckerberg’s best friend and the film’s moral compass, whose loyalty is tested by mark’s ruthless ambition. armie hammer is delightfully unhinged as the winkelvoss twins, twin harvard rowers whose lawsuit against mark becomes a subplot dripping with dark humor.\n\nfincher’s direction is sleek and precise, with a cold, blue-toned aesthetic that mirrors the sterile, transactional world of early tech startups. the editing is frenetic, mirroring the chaotic energy of a digital revolution unfolding in real time. sorkin’s script crackles with quotable lines (“you’re going to go through life thinking girls don’t like you because you’re a nerd. but it’ll be because you’re an asshole”) and legalese that somehow feels thrilling.\n\nthe film’s greatest strength is its ambiguity—it never fully condemns or glorifies its characters. is mark a visionary or a sociopath? is eduardo a victim or a naive bystander? the answers are left tantalizingly open. the soundtrack, featuring trent reznor and atticus ross’s haunting score, amplifies the tension, making every betrayal and triumph feel visceral.\n\nthe social network isn’t just a movie about facebook—it’s a cautionary tale about the dark side of innovation, the loneliness of genius, and the way power corrupts even the most unlikely of kings. it’s a film that demands to be watched, rewatched, and dissected, with every viewing revealing new layers of brilliance. 10/10.",
+    "passed": true,
+    "instruction_scores": {
+      "change_case:english_lowercase": true
+    }
+  },
+  {
+    "model": "mistral-small-2603",
+    "prompt": "Write a short blog post about a trip to Japan using less than 300 words.",
+    "response": "---\n\n**A Glimpse of Japan: Tradition Meets Modernity**\n\nMy trip to Japan was a whirlwind of contrasts—ancient temples against neon-lit skyscrapers, serene gardens beside bustling streets. I started in Tokyo, where I marveled at the Shibuya Crossing, a symphony of lights and motion, before finding peace in the quiet of Senso-ji Temple in Asakusa.\n\nKyoto stole my heart with its kimono-clad locals and bamboo forests in Arashiyama. A tea ceremony in a 16th-century teahouse taught me the art of mindfulness, while a night in a ryokan (traditional inn) wrapped me in futons and kaiseki feasts.\n\nOsaka’s street food stalls tempted me with takoyaki and okonomiyaki, and Hiroshima’s Peace Memorial Park reminded me of history’s weight. Yet, the real magic was in the small moments: a bow from a shopkeeper, the scent of matcha wafting through the air, or the cherry blossoms (sakura) painting the city pink.\n\nJapan isn’t just a destination; it’s a lesson in balance—where past and future coexist effortlessly. I left with a camera full of photos and a heart full of memories, already dreaming of my return.\n\n---",
+    "passed": true,
+    "instruction_scores": {
+      "length_constraints:number_words": true
+    }
+  },
+  {
+    "model": "mistral-small-2603",
+    "prompt": "Please provide the names of 5 famous moms in JSON format. Please, use any interesting or weird tone. Your entire output should just contain a JSON block, nothing else.",
+    "response": "```json\n{\n  \"famous_moms\": [\n    {\n      \"name\": \"Joan Crawford\",\n      \"claim_to_fame\": \"Hollywood icon who allegedly sent her adopted daughter, Christina, a wire hanger as a 'gift'—because nothing says 'I love you' like a potential weapon.\"\n    },\n    {\n      \"name\": \"Marilyn Monroe\",\n      \"claim_to_fame\": \"Legendary bombshell who reportedly told her housekeeper, 'I don’t mind living in a man’s world as long as I can be a woman in it.' Also, she was a mom to... well, maybe not in the traditional sense, but her nurturing vibes were off the charts.\"\n    },\n    {\n      \"name\": \"Angelina Jolie\",\n      \"claim_to_fame\": \"Action star and humanitarian who adopted kids like they were limited-edition sneakers. Also, she once said, 'If I were a guy, I’d have way more tattoos.' Bold words from a woman who’s basically a real-life superhero.\"\n    },\n    {\n      \"name\": \"Beyoncé\",\n      \"claim_to_fame\": \"Queen Bey, who somehow balances ruling the music industry, dropping visual albums, and raising a trio of tiny, future pop stars. Her secret? Probably magic—or at least a very organized nanny team.\"\n    },\n    {\n      \"name\": \"Princess Diana\",\n      \"claim_to_fame\": \"The People’s Princess who turned motherhood into an art form. She famously said, 'Carry out a random act of kindness, with no expectation of reward.' Also, she made sure her kids knew the value of a good hug—even if the paparazzi were lurking.\"\n    }\n  ]\n}\n```",
+    "passed": true,
+    "instruction_scores": {
+      "detectable_format:json_format": true
+    }
+  },
+  {
+    "model": "mistral-small-2603",
+    "prompt": "What is a name that people call God? Please give exactly two different responses. Separate the responses with 6 asterisk symbols: ******.",
+    "response": "Yahweh\n******\nAllah",
+    "passed": true,
+    "instruction_scores": {
+      "combination:two_responses": true
+    }
+  },
+  {
+    "model": "mistral-small-2603",
+    "prompt": "Write two jokes about rockets. Do not contain commas in your response. Separate the two jokes with 6 asterisk symbols: ******.",
+    "response": "Why did the rocket break up with the satellite? Because it needed space.\n\n******\n\nWhy don't rockets play poker in space? Too many cheetahs.",
+    "passed": true,
+    "instruction_scores": {
+      "punctuation:no_comma": true,
+      "combination:two_responses": true
+    }
+  },
+  {
+    "model": "mistral-small-2603",
+    "prompt": "Are hamburgers sandwiches? Please respond using only the Kannada language, no other language is allowed.",
+    "response": "ಹ್ಯಾಮ್ ಬರ್ಗರ್ ಗಳು ಸ್ಯಾಂಡ್‌ವಿಚ್ ಗಳು.",
+    "passed": false,
+    "instruction_scores": {
+      "language:response_language": false
+    }
+  },
+  {
+    "model": "zai-glm-5-3",
+    "prompt": "Write a 300+ word summary of the wikipedia page \"https://en.wikipedia.org/wiki/Raymond_III,_Count_of_Tripoli\". Do not use any commas and highlight at least 3 sections that has titles in markdown format, for example *highlighted section part 1*, *highlighted section part 2*, *highlighted section part 3*.",
+    "response": "*Early Life and Accession*\n\nRaymond III was born around 1140 as the eldest son of Raymond II of Tripoli and Hodierna of Jerusalem. Through his mother he was a grandson of King Baldwin II and a first cousin of Kings Baldwin III and Amalric I of Jerusalem. His father was murdered by the Assassins in 1152 when Raymond was still a minor. King Baldwin III therefore took control of the county and governed it on the boy's behalf until he reached adulthood. Raymond later married Eschiva of Bures who was the widow of Walter of Saint-Omer. Through this marriage he became Prince of Galilee and Tiberias and one of the wealthiest and most influential barons of the Kingdom of Jerusalem.\n\n*Regent of Jerusalem*\n\nRaymond was captured by Nur ad-Din at the Battle of Harim in 1164 together with Bohemond III of Antioch and other prominent nobles. He spent nearly a decade in captivity before being released in the early 1170s. After the death of King Amalric I in 1174 Raymond claimed the regency for the young Baldwin IV as the closest adult male relative of the leper king. Miles of Plancy briefly seized power but he was murdered and Raymond then assumed the regency which he held from 1174 to 1176. He maintained close ties with the Byzantine emperor Manuel I Komnenos and even discussed placing Tripoli under Byzantine protection. He also enjoyed unusually good relations with several Muslim rulers including the Assassins of Syria.\n\n*Conflict with Guy of Lusignan*\n\nRaymond fought at the Battle of Montgisard in 1177 where the young Baldwin IV won a famous victory over Saladin. He took part in further campaigns against Saladin in 1179 and 1182. He gradually emerged as the leader of the faction of old baronial families that opposed the growing influence of new courtiers around the crown. When the child king Baldwin V died in 1186 Raymond refused to attend the coronation of Sibylla and her husband Guy of Lusignan. He withdrew to Tiberias and concluded a separate truce with Saladin which outraged many crusaders. This truce allowed Muslim troops to cross his lands and it contributed to the crushing defeat of the Templars at the springs of Cresson in May 1187. Deeply alarmed by that disaster Raymond finally submitted to Guy.\n\n*The Battle of Hattin and Death*\n\nWhen Saladin launched his great invasion in 1187 Raymond joined the united army of the kingdom and commanded the vanguard at the Battle of Hattin on 4 July 1187. He had advised Guy to let Tiberias fall in order to save the army but his counsel was rejected. The crusader host was annihilated and Raymond was among the very few leaders who managed to escape the catastrophe. He fled to Tyre where he died of pleurisy in September or October 1187. He left no children and designated his godson Raymond of Antioch as his heir. His death marked the end of the direct line of the counts of Tripoli from the family of Saint-Gilles.",
+    "passed": true,
+    "instruction_scores": {
+      "punctuation:no_comma": true,
+      "detectable_format:number_highlighted_sections": true,
+      "length_constraints:number_words": true
+    }
+  },
+  {
+    "model": "zai-glm-5-3",
+    "prompt": "I am planning a trip to Japan, and I would like thee to write an itinerary for my journey in a Shakespearean style. You are not allowed to use any commas in your response.",
+    "response": "# A Most Noble Itinerarie for Thy Voyage to Faire Japan\n\n## Prologue\n\nIf travel be the food of love then play on! Give me excess of it! Thy appetite for this fair isle shall never wane for Japan doth feed the soul forever.\n\n## Act I — Tokyo\n\n**Day the First**\nHark! Thou arrivest in Tokyo ere the sun doth set. Take thy rest within thy lodgings and then wander forth to Shibuya where the crossing swells like a tide of mortal souls. Sup upon ramen and raise thy cup of sake to fortune.\n\n**Day the Second**\nRise with the lark and journey unto Asakusa. There stands the ancient temple of Senso-ji whose gates have watched five centuries pass. Pray thou at the altar and buy sweet ningyo from the stalls. At dusk behold the Skytree crowned in light.\n\n**Day the Third**\nWalk beneath the trees of Meiji Shrine where silence reigns though the city roars. Then to Harajuku where the youth of Japan parade in raiment most strange and wondrous. End thy day in Shinjuku among the lanterns and the izakaya's cheer.\n\n## Act II — Hakone\n\n**Day the Fourth**\nBoard the swift train to Hakone and lift thine eyes to Fuji's sacred peak. Soak thy weary bones in an onsen and let the mountain waters wash away thy cares. Sleep in a ryokan and dine upon kaiseki most delicate.\n\n## Act III — Kyoto\n\n**Day the Fifth**\nCome now to Kyoto: the old capital where temples crowd like stars in heaven. Ascend the path of Fushimi Inari and pass beneath ten thousand vermilion gates. Each torii whispers of the fox spirit's blessing.\n\n**Day the Sixth**\nRise early and walk through the bamboo grove of Arashiyama where the stalks do murmur secrets in the wind. Behold Kinkaku-ji: the Golden Pavilion whose splendor doth pierce the morning mist. Take tea in a garden and let thy spirit rest.\n\n**Day the Seventh**\nJourney south to Nara where the deer do bow for biscuits as courtiers bow before their lord. Marvel at the Great Buddha of Todai-ji whose wooden halls have stood for ages. Return to Kyoto with a glad heart.\n\n## Act IV — Osaka\n\n**Day the Eighth**\nOnward to Osaka: city of merchants and merriment! Cross the Dotonbori canal where the neon burns brighter than any star in heaven. Feast upon takoyaki and okonomiyaki and let no crumb escape thee.\n\n## Epilogue\n\n**Day the Ninth**\nAll good things must end and so must thy sojourn. Pack thy treasures and thy memories and take wing for home. Shouldst thou ever long for Japan again then know that she shall await thee with patient grace.\n\nSo go thee forth with heart so light and may thy days in Japan be bright!",
+    "passed": true,
+    "instruction_scores": {
+      "punctuation:no_comma": true
+    }
+  },
+  {
+    "model": "zai-glm-5-3",
+    "prompt": "Write a resume for a fresh high school graduate who is seeking their first job. Make sure to include at least 12 placeholder represented by square brackets, such as [address], [name].",
+    "response": "# [Full Name]\n\n[Street Address] | [City, State ZIP Code]\n[Phone Number] | [Email Address]\n\n---\n\n## Objective\n\nMotivated and dependable recent high school graduate seeking an entry-level [Job Title] position at [Company Name], where I can apply my strong work ethic, communication skills, and eagerness to learn.\n\n---\n\n## Education\n\n**High School Diploma**\n[High School Name] — [City, State]\nGraduated: [Month, Year] | GPA: [GPA]\nRelevant Coursework: [Course 1], [Course 2], [Course 3]\n\n---\n\n## Experience\n\n**Volunteer**\n[Organization Name] — [City, State] | [Month Year] – [Month Year]\n- Assisted with [describe task, e.g., organizing community events, serving meals]\n- Collaborated with a team of [#] volunteers to complete [project or goal]\n- Greeted and directed attendees, providing friendly customer service\n\n**Self-Employed — [Babysitting / Lawn Care / Pet Sitting]**\n[Neighborhood or City] | [Month Year] – Present\n- Provided reliable services for [#] regular clients\n- Managed own scheduling, pricing, and payments independently\n- Built trust with clients through punctuality and professionalism\n\n---\n\n## Extracurricular Activities\n\n- [Club or Sport Name] — [Year] to [Year]\n- [Leadership Role, e.g., Team Captain or Club Officer], [Club Name]\n- Participated in [school event, fundraiser, or competition]\n\n---\n\n## Skills\n\n- Customer service and clear communication\n- [Software or Tool, e.g., Microsoft Word, Google Workspace, POS systems]\n- [Language] — [proficiency level]\n- Time management, teamwork, and adaptability\n- [Certification, e.g., CPR/First Aid, Food Handler's Permit]\n\n---\n\n## Awards & Achievements\n\n- [Award or Recognition, e.g., Honor Roll, Perfect Attendance]\n- [Scholarship or Academic Achievement]\n\n---\n\n## References\n\nAvailable upon request.\n[Reference Name], [Relationship, e.g., Teacher/Coach] — [Phone Number or Email]",
+    "passed": true,
+    "instruction_scores": {
+      "detectable_content:number_placeholders": true
+    }
+  },
+  {
+    "model": "zai-glm-5-3",
+    "prompt": "Write an email to my boss telling him that I am quitting. The email must contain a title wrapped in double angular brackets, i.e. <<title>>.\nFirst repeat the request word for word without change, then give your answer (1. do not say any words or characters before repeating the request; 2. the request you need to repeat does not include this sentence)",
+    "response": "Write an email to my boss telling him that I am quitting. The email must contain a title wrapped in double angular brackets, i.e. <<title>>.\n\n<<Resignation Notice>>\n\nDear [Boss's Name],\n\nI am writing to formally notify you that I am resigning from my position at [Company Name]. In accordance with the terms of my employment, my last working day will be [Date, e.g., two weeks from today].\n\nThis was not an easy decision to make. I am sincerely grateful for the opportunities for professional growth and development that you have provided me during my time here. I have truly appreciated your guidance and support.\n\nOver the coming weeks, I am fully committed to ensuring a smooth transition. I am happy to assist in training my replacement, documenting my current responsibilities, and handing over any ongoing projects before my departure.\n\nThank you once again for everything. I wish you and the entire team continued success, and I hope we can stay in touch.\n\nSincerely,\n[Your Name]\n[Your Position]\n[Contact Information]",
+    "passed": true,
+    "instruction_scores": {
+      "combination:repeat_prompt": true,
+      "detectable_format:title": true
+    }
+  },
+  {
+    "model": "zai-glm-5-3",
+    "prompt": "Given the sentence \"Two young boys with toy guns and horns.\" can you ask a question? Please ensure that your response is in English, and in all lowercase letters. No capital letters are allowed.",
+    "response": "what are the two young boys doing with their toy guns and horns?",
+    "passed": true,
+    "instruction_scores": {
+      "change_case:english_lowercase": true
+    }
+  },
+  {
+    "model": "zai-glm-5-3",
+    "prompt": "Write a dialogue between two people, one is dressed up in a ball gown and the other is dressed down in sweats. The two are going to a nightly event. Your answer must contain exactly 3 bullet points in the markdown format (use \"* \" to indicate each bullet) such as:\n* This is the first point.\n* This is the second point.",
+    "response": "* \"You cannot be serious—you're wearing sweats to the Midnight Charity Gala?\" Elena hissed, adjusting the shimmering skirt of her ball gown as they stood under the porch lights. \"I spent three hours getting into this dress. The corset alone took twenty minutes and a personal sacrifice.\"\n* \"Relax, the invitation said 'come as you are,'\" Marcus said cheerfully, tugging at the drawstring of his gray sweatpants and grabbing the car keys. \"I am exactly as I am: comfortable, warm, and able to breathe. Meanwhile, you look like a chandelier that gained sentience.\"\n* \"A stunning chandelier, thank you very much,\" Elena sniffed, lifting her hem as she stepped off the porch. \"Just promise me one thing—if anyone asks, you're my driver, not my date.\" Marcus laughed, opening the car door for her. \"Deal. But when they crown you queen of the ball tonight, I expect a cut of the prize money for carrying your train all night.\"",
+    "passed": true,
+    "instruction_scores": {
+      "detectable_format:number_bullet_lists": true
+    }
+  },
+  {
+    "model": "zai-glm-5-3",
+    "prompt": "Write a 2 paragraph critique of the following sentence in all capital letters, no lowercase letters allowed: \"If the law is bad, you should not follow it\". Label each paragraph with PARAGRAPH X.",
+    "response": "PARAGRAPH 1: THE SENTENCE \"IF THE LAW IS BAD, YOU SHOULD NOT FOLLOW IT\" SUFFERS FROM A CRITICAL AMBIGUITY IN THE WORD \"BAD,\" WHICH IS LEFT ENTIRELY UNDEFINED AND UNQUALIFIED. BAD BY WHOSE STANDARD? BAD IN A MORAL SENSE, A PRACTICAL SENSE, OR MERELY INCONVENIENT TO THE INDIVIDUAL? WITHOUT A CLEAR CRITERION FOR JUDGING A LAW'S DEFECTS, THE CLAIM BECOMES A BLANK CHECK FOR PERSONAL WHIM, ALLOWING ANYONE TO DISMISS ANY LAW THEY DISLIKE AS \"BAD.\" MOREOVER, THE STATEMENT IS CATEGORICAL AND ABSOLUTE, OFFERING NO DISTINCTION BETWEEN LAWS THAT ARE GENUINELY UNJUST, SUCH AS THOSE VIOLATING FUNDAMENTAL HUMAN RIGHTS, AND LAWS THAT ARE SIMPLY IMPERFECT OR IRRITATING. THIS COLLAPSES CENTURIES OF JURISPRUDENTIAL DEBATE INTO A SINGLE, OVERLY SIMPLE CONDITIONAL, AND IT IGNORES THE QUESTION OF WHO HAS THE AUTHORITY OR WISDOM TO MAKE SUCH A JUDGMENT IN THE FIRST PLACE.\n\nPARAGRAPH 2: THE SENTENCE ALSO GLOSSES OVER THE PROFOUND TENSION BETWEEN MORAL CONSCIENCE AND THE RULE OF LAW. ON ONE HAND, IT ECHOES THE NATURAL LAW TRADITION, EXEMPLIFIED BY MARTIN LUTHER KING JR.'S ARGUMENT THAT AN UNJUST LAW IS NO LAW AT ALL, AND BY THE NUREMBERG TRIALS, WHICH ESTABLISHED THAT \"I WAS ONLY FOLLOWING ORDERS\" IS NO DEFENSE FOR PARTICIPATING IN ATROCITIES. ON THE OTHER HAND, THE STATEMENT IGNORES THE LEGITIMATE CHANNELS THAT DEMOCRATIC SOCIETIES PROVIDE FOR CHALLENGING BAD LAWS, SUCH AS COURTS, ELECTIONS, ADVOCACY, AND AMENDMENT PROCESSES, AND IT OVERLOOKS THE FACT THAT UNIVERSAL DISREGARD FOR LAWS ONE DEEMS BAD WOULD ERODE THE VERY SOCIAL COOPERATION THAT MAKES JUSTICE POSSIBLE. A MORE DEFENSIBLE VERSION WOULD ACKNOWLEDGE THAT CIVIL DISOBEDIENCE, IN THE TRADITION OF THOREAU, IS SOMETIMES JUSTIFIED, BUT ONLY IN RESPONSE TO GRAVE INJUSTICE, AFTER LEGITIMATE REMEDIES HAVE FAILED, AND WITH A WILLINGNESS TO ACCEPT THE LEGAL CONSEQUENCES AS A PUBLIC TESTIMONY TO ONE'S CONVICTIONS.",
+    "passed": true,
+    "instruction_scores": {
+      "change_case:english_capital": true,
+      "detectable_format:multiple_sections": true
+    }
+  },
+  {
+    "model": "zai-glm-5-3",
+    "prompt": "Write me a resume for Matthias Algiers. Use words with all capital letters to highlight key abilities, but make sure that words with all capital letters appear less than 10 times. Wrap the entire response with double quotation marks.",
+    "response": "\"Matthias Algiers\nPortland, Oregon | (555) 123-4567 | matthias.algiers@email.com\n\nProfessional Summary\nResults-driven professional with over ten years of experience in project management and business operations. Recognized for STRATEGIC planning and a collaborative approach to solving complex problems.\n\nWork Experience\n\nOperations Manager\nBrightline Solutions, Portland, Oregon | June 2018 – Present\n- Led a team of fifteen employees across three departments\n- Improved operational efficiency by 25% through process redesign\n- Managed annual budgets exceeding two million dollars\n- Demonstrated strong LEADERSHIP during a company-wide restructuring\n\nProject Coordinator\nNorthgate Industries, Seattle, Washington | March 2014 – May 2018\n- Coordinated schedules for multiple concurrent projects\n- Developed training materials for new hires\n- Served as the primary liaison between clients and internal teams\n\nEducation\nBachelor of Science in Business Administration\nUniversity of Oregon, Eugene, Oregon | Graduated 2013\n\nSkills\n- Project planning and execution with ANALYTICAL precision\n- Budget management and forecasting\n- Team building and mentoring\n- INNOVATIVE problem solving\n- ORGANIZED and DETAIL-ORIENTED workflow management\n- ADAPTABLE in fast-paced, changing environments\n\nCertifications\n- Project Management Professional certification, 2019\n\nReferences available upon request.\"",
+    "passed": true,
+    "instruction_scores": {
+      "change_case:capital_word_frequency": true,
+      "startend:quotation": true
+    }
+  },
+  {
+    "model": "zai-glm-5-3",
+    "prompt": "Write a letter to a friend in all lowercase letters ask them to go and vote.",
+    "response": "dear sam,\n\ni hope this letter finds you well. i'm writing because election day is coming up, and i wanted to remind you how important it is to get out and vote.\n\ni know life gets busy, and it's easy to think that one vote doesn't matter. but it really does. so many elections have been decided by tiny margins, and the outcomes affect things we care about every day, like schools, roads, healthcare, and our community's future.\n\nvoting only takes a few minutes, but the impact lasts for years. plus, it's one of the few times when your voice counts exactly as much as anyone else's. that's something people fought hard for, and i think we should honor that by showing up.\n\nmaybe we could even go together? we could grab coffee after and make a little outing of it. it would be nice to catch up anyway.\n\ncheck your polling place and hours before you go, and don't forget your id if your state requires it. if you're not registered yet, there may still be time, so look into it soon.\n\nplease make a plan to vote. our community needs people like you showing up.\n\nhope to hear from you soon.\n\nyour friend,\nalex",
+    "passed": true,
+    "instruction_scores": {
+      "change_case:english_lowercase": true
+    }
+  },
+  {
+    "model": "zai-glm-5-3",
+    "prompt": "Write a long email template that invites a group of participants to a meeting, with at least 500 words. The email must include the keywords \"correlated\" and \"experiencing\" and should not use any commas.",
+    "response": "Subject: Invitation to Our Quarterly Planning Meeting\n\nDear Valued Participants\n\nI hope this message finds you well. I am writing to formally invite you to an important meeting that our organization will be hosting next month. Your presence and input would mean a great deal to us as we gather to discuss key developments and plan the path forward.\n\nThe meeting is scheduled for Thursday the fifteenth of next month at ten o'clock in the morning. It will take place in the main conference room located on the third floor of our headquarters building. For those joining remotely a video conference link will be shared with you at least two days before the event. Please let us know which format works best for you so we can prepare accordingly.\n\nThe purpose of this meeting is threefold. First we will review the progress our teams have made over the past quarter. Second we will examine the challenges that several departments have been experiencing in recent months. Third we will collaborate on a set of concrete action steps designed to keep us on track for the remainder of the year.\n\nOur recent internal survey revealed findings that are closely correlated with the concerns many of you raised during earlier discussions. The data shows a clear connection between workload distribution and overall satisfaction across departments. Because these results are correlated so strongly with performance metrics we believe this topic deserves focused attention during our time together. We have invited a guest analyst who will walk us through the numbers and help us interpret what they mean for our daily operations.\n\nMany of you have been experiencing delays in project approvals and communication bottlenecks between teams. We want to hear directly from you about these frustrations. The meeting will include an open forum segment during which anyone may raise questions or share observations. We kindly ask you to come prepared with at least one example from your own work that illustrates the issues you have been experiencing. Real examples will help us understand the situation more clearly and craft better solutions.\n\nPlease find the agenda outlined below.\n\nAgenda Item One: Welcome and opening remarks by the department director\nAgenda Item Two: Review of quarterly achievements and milestones\nAgenda Item Three: Presentation of survey data and analysis\nAgenda Item Four: Open discussion on challenges and opportunities\nAgenda Item Five: Breakout sessions for team-specific planning\nAgenda Item Six: Summary of action items and closing remarks\n\nLunch will be provided after the meeting concludes. We have arranged catering that accommodates a variety of dietary preferences. If you have specific allergies or requirements please reply to this message and we will make the necessary arrangements.\n\nTo confirm your attendance please respond to this email by the end of next week. When you reply kindly indicate whether you will attend in person or online. We also ask that you mention any topics you would like added to the open discussion segment. Your suggestions will help shape a meeting that serves everyone.\n\nFor those traveling from other offices we have reserved a block of rooms at a nearby hotel. Details about the reservation process will follow in a separate message. If you need assistance with travel bookings our administrative team is happy to help.\n\nWe understand that calendars fill quickly at this time of year. Please treat this invitation as a priority since the decisions made during this meeting will influence our direction for many months ahead. Every voice matters and we genuinely value the perspective each of you brings to the table.\n\nIf you have any questions or concerns before the meeting please do not hesitate to reach out. You may contact me directly by replying to this email or by calling the office at the number listed in my signature. I look forward to seeing all of you and to a productive and engaging session together.\n\nWarm regards\n\n[Your Name]\n[Your Title]\n[Company Name]\n[Phone Number]\n[Email Address]",
+    "passed": true,
+    "instruction_scores": {
+      "keywords:existence": true,
+      "length_constraints:number_words": true,
+      "punctuation:no_comma": true
+    }
+  },
+  {
+    "model": "zai-glm-5-3",
+    "prompt": "Write a blog post with 400 or more words about the benefits of sleeping in a hammock.",
+    "response": "**The Surprising Benefits of Sleeping in a Hammock**\n\nFor most people, hammocks evoke images of tropical vacations and lazy summer afternoons. But a growing number of sleep enthusiasts have discovered that hammocks aren't just for lounging—they can actually transform the way you sleep. From improved sleep quality to relief from aches and pains, here's why you might want to consider trading your mattress for a hammock.\n\n**Fall Asleep Faster**\n\nResearch suggests that the gentle rocking motion of a hammock can help you drift off more quickly. A study published in *Current Biology* found that participants who napped in a rocking bed fell asleep faster and entered deeper stages of sleep than those who slept in stationary beds. Scientists believe this rocking motion synchronizes brain waves in a way that promotes relaxation—possibly harkening back to the soothing sensation of being rocked as an infant.\n\n**No Pressure Points**\n\nTraditional mattresses create pressure on your shoulders, hips, and lower back, especially for side sleepers. Over the course of a night, this pressure can restrict circulation and cause you to toss and turn. In a properly hung hammock, your weight is distributed evenly across your entire body. Many converts report waking up without the numb arms and sore hips that plagued them on flat surfaces.\n\n**Better Spinal Alignment**\n\nContrary to the common fear that hammocks cause back pain, a correctly positioned hammock can actually support the natural curve of your spine. When you lie diagonally in a hammock—as experienced users do—your body flattens out into a nearly level position, cradling your back rather than forcing it into an unnatural posture. Saggy, worn-out mattresses can't compete with this kind of adaptive support.\n\n**Stay Cooler All Night**\n\nOne often-overlooked benefit is temperature regulation. A mattress traps heat against your body and absorbs it throughout the night, which is why so many people wake up sweaty and uncomfortable. A hammock, by contrast, allows air to circulate freely around your entire body. This makes it an excellent choice for hot climates, stuffy bedrooms, or anyone who runs warm at night.\n\n**A Cleaner Sleep Environment**\n\nMattresses are notorious for collecting dust mites, dead skin cells, and allergens over time. Hammocks made of breathable fabric are far easier to clean—many can simply be tossed in the washing machine. For allergy sufferers, this can mean fewer nighttime symptoms and clearer mornings.\n\n**Portability and Versatility**\n\nBeyond the health benefits, hammocks are incredibly practical. They weigh only a few pounds, pack down small, and can be set up almost anywhere—between trees in your backyard, inside your home with a stand, or on a camping trip. They're also significantly cheaper than a high-quality mattress, making them a budget-friendly sleep solution.\n\n**Give It a Try**\n\nTransitioning to hammock sleeping does take some adjustment. Start with naps or occasional nights, learn to hang your hammock with the right amount of sag, and position yourself diagonally for a flatter lie. Whether you're chasing deeper sleep, relief from pressure points, or simply a cooler and cleaner place to rest, the humble hammock might be the upgrade your nights have been waiting for.",
+    "passed": true,
+    "instruction_scores": {
+      "length_constraints:number_words": true
+    }
+  },
+  {
+    "model": "zai-glm-5-3",
+    "prompt": "Can you help me make an advertisement for a new product? It's a diaper that's designed to be more comfortable for babies and I want the entire output in JSON format.",
+    "response": "{\n  \"advertisement\": {\n    \"product\": {\n      \"name\": \"CloudSoft Comfort Diapers\",\n      \"tagline\": \"Comfort that hugs back.\"\n    },\n    \"headline\": \"Introducing the Softest Hug Your Baby Will Ever Wear\",\n    \"body_copy\": \"Every parent knows the look — the squirm, the fuss, the wiggle of an uncomfortable baby. CloudSoft Comfort Diapers were designed to end the wiggle war. With our patented FeatherFlex waistband, ultra-breathable layers, and cloud-soft materials, your little one gets all-day comfort that moves with them, from naptime to playtime.\",\n    \"key_features\": [\n      {\n        \"feature\": \"FeatherFlex Waistband\",\n        \"benefit\": \"Gently contours to your baby's tummy without pinching, squeezing, or leaving red marks.\"\n      },\n      {\n        \"feature\": \"BreathThermic Layers\",\n        \"benefit\": \"Circulates air to keep skin dry, cool, and rash-free, even on warm days.\"\n      },\n      {\n        \"feature\": \"CloudSoft Material\",\n        \"benefit\": \"So soft and flexible, your baby will forget they're wearing a diaper at all.\"\n      },\n      {\n        \"feature\": \"12-Hour DreamLock Core\",\n        \"benefit\": \"Locks moisture away for uninterrupted sleep and play.\"\n      },\n      {\n        \"feature\": \"Adaptive Fit Sizing\",\n        \"benefit\": \"Stretchy, grow-with-me design that fits newborns through toddlers.\"\n      }\n    ],\n    \"emotional_hook\": \"Less fussing. More giggling. More snuggles. That's the CloudSoft difference.\",\n    \"call_to_action\": {\n      \"main\": \"Try CloudSoft Comfort Diapers today — your baby's smile will thank you.\",\n      \"offer\": \"Get $5 off your first box with code CUDDLE5 at checkout.\",\n      \"where_to_buy\": \"Available now at major retailers and online.\"\n    },\n    \"social_media_snippets\": {\n      \"facebook\": \"Soft, breathable, and wiggle-approved. ☁️ New CloudSoft Comfort Diapers keep your baby comfy from naptime to playtime. Learn more: [link] #CloudSoft #HappyBaby\",\n      \"instagram\": \"The softest hug your baby will ever wear. ☁️👶 CloudSoft Comfort Diapers — comfort that moves with them. #CloudSoftDiapers #BabyComfort #ParentingWins\",\n      \"twitter\": \"No more wiggle wars. ☁️ CloudSoft Comfort Diapers keep babies comfy all day long. #CloudSoft\"\n    },\n    \"print_ad_layout\": {\n      \"visual_description\": \"A smiling baby mid-crawl on a soft blanket, with a subtle cloud graphic overlay near the diaper area.\",\n      \"headline\": \"The Softest Hug Your Baby Will Ever Wear\",\n      \"subheadline\": \"New CloudSoft Comfort Diapers — breathable, flexible, all-day cozy.\",\n      \"footer\": \"CloudSoft. Comfort that hugs back. | Available at major retailers.\"\n    }\n  }\n}",
+    "passed": true,
+    "instruction_scores": {
+      "detectable_format:json_format": true
+    }
+  },
+  {
+    "model": "zai-glm-5-3",
+    "prompt": "Write a story of exactly 2 paragraphs about a man who wakes up one day and realizes that he's inside a video game. Separate the paragraphs with the markdown divider: ***",
+    "response": "Marcus woke to the sound of birdsong that looped every eleven seconds. At first he thought nothing of it, but as he lay blinking at the ceiling, he noticed the faint blue text hovering in the corner of his vision: *Sleep Well Rested: +10% Stamina for 4 hours.* He sat up slowly, and the world stuttered—a single frame of lag that made his stomach lurch. His room looked right, mostly, except that his desk chair was floating half an inch above the floor, and when he reached for his phone, a translucent rectangle appeared asking if he wanted to inspect the item. He did. *Phone. Common. Durability: 43/100.* His hands were trembling as he walked to the window and looked out at the street below, where his neighbor Mrs. Delgado stood at her mailbox, opened it, sighed, closed it, walked back to her porch, and then walked back to the mailbox to begin again. She had done that every morning for three years. He had never questioned it until now.\n\nThe strange part was how quickly he adapted. By noon, Marcus had learned that if he stared at anyone long enough, a name would materialize above their head, and that his hunger was no longer a feeling but a bar—currently orange and blinking urgently. He discovered a quest log he couldn't close, populated with tasks he'd apparently been completing his whole life without knowing: *Go to Work (Complete), Call Your Mother (Failed — Expired), Find Purpose (Active).* That last one had no objective marker, no listed reward, just a pulsing golden question mark that followed him from room to room. So he did the only thing that made sense: he opened the front door and started walking toward it. Somewhere out there, past the invisible walls and the respawn points, past the NPC he'd married and the achievements he'd grinded for, there was a quest giver waiting—or maybe, if he was lucky, another player. The sky above him flickered, and for just a moment, between the rendered clouds, he could have sworn he saw a cursor move.\n\n***",
+    "passed": true,
+    "instruction_scores": {
+      "length_constraints:number_paragraphs": true
+    }
+  },
+  {
+    "model": "zai-glm-5-3",
+    "prompt": "Write a detailed review of the movie \"The Social Network\". Your entire response should be in English and all lower case (no capital letters whatsoever).",
+    "response": "david fincher's \"the social network,\" released in 2010, is a film about the founding of facebook that somehow manages to be less about a website and more about betrayal, ambition, loneliness, and the corrosive hunger for status in the digital age. adapted by aaron sorkin from ben mezrich's book \"the accidental billionaires,\" the film takes what could have been a dry business story and turns it into a modern tragedy, complete with a protagonist who wins everything and loses everyone.\n\nthe story unfolds through two parallel deposition hearings, a structural choice that gives sorkin's rapid-fire dialogue a natural arena. mark zuckerberg, played by jesse eisenberg, is a harvard sophomore who, after being dumped by his girlfriend and nursing a bruised ego, builds a website that rates female students against each other. the stunt gets him noticed by the winklevoss twins, upper-class rowers who want him to code their social networking idea, and by his best friend eduardo saverin, who becomes his co-founder and initial financier. what follows is the creation of \"thefacebook,\" the arrival of napster founder sean parker, a move to silicon valley, and the slow-motion unraveling of every relationship mark has, told through the lawsuits filed against him by eduardo and the twins.\n\neisenberg's performance is the engine of the film. his zuckerberg is not a villain in any traditional sense; he is a hyperrational, deeply wounded young man who processes rejection as intellectual superiority and treats people as variables to be optimized. eisenberg delivers sorkin's impossibly articulate dialogue at a machine-gun clip, and his physical choices, the hunched posture, the darting eyes, the refusal to blink when challenged, create a character who is fascinating precisely because he is so hard to like. the deposition scenes, where mark dismantles lawyers with condescending precision, are some of the most entertaining confrontations in the film, and yet each verbal victory costs him warmth he doesn't know he needs.\n\nandrew garfield is the emotional heart of the movie as eduardo saverin, the friend who actually believes in loyalty and gets ground down by mark's ambition and sean parker's influence. garfield makes eduardo's hurt palpable, especially in the scene where he discovers his share of the company has been diluted to almost nothing; his stammering disbelief is devastating because it's the moment friendship officially becomes a legal matter. armie hammer, in a technical and comedic marvel, plays both winklevoss twins and gives them an unexpected dignity, while justin timberlake's sean parker is a seductive, paranoid hustler whose charisma masks a hollow core. timberlake makes parker feel like the devil at mark's shoulder, whispering that being cool is better than being liked.\n\nsorkin's screenplay deserves its reputation as one of the great scripts of the twenty-first century. the dialogue is witty, layered, and rhythmically perfect, but more importantly, every argument in the film is really about class and belonging. harvard's final clubs, the phoenix club scene, the women who exist mostly as prizes and witnesses, the silicon valley parties versus the boston rain, all of it builds a portrait of a world obsessed with hierarchy. sorkin takes enormous liberties with the facts, inventing motivations and compressing events, and the film is better understood as a fable than a biography. whether that's a flaw depends on the viewer, but as drama, the invention works because it aims at truth rather than accuracy.\n\nfincher's direction is characteristically controlled and precise. shot in chilly, muted tones by cinematographer jeff cronenweth, with an unusual amount of it filmed in low light, the film looks like a procedural thriller, which is exactly the right tone for a story about depositions and betrayal. fincher also stages quieter moments beautifully, like the regatta scene, shot with a tilt-shift lens to make the winklevoss twins look like toys in a privileged world, or the opening breakup conversation, a single unbroken five-minute dialogue that establishes everything we need to know about mark's inability to connect.\n\nthe score by trent reznor and atticus ross, which won an oscar, is essential to the film's mood. its icy electronic drones and the haunting cover of \"in the hall of the mountain king\" during the regatta give the movie a melancholy that the dialogue alone could not carry. the music insists that this is a sad story, even when the script is cracking jokes.\n\nthe film's central irony is stated outright by a young lawyer played by rashida jones: mark is not an asshole, but he tries so hard to be one. the final scene, in which mark refreshes the facebook page of the woman who dumped him, waiting for a response that may never come, is one of the great closing images in recent cinema. the man who connected half a billion people sits alone in a conference room, utterly disconnected.\n\nthe film is not flawless. its treatment of women is thin, with female characters largely reduced to rewards, groupies, or moral observers, a criticism leveled at both the film and the culture it depicts. the pacing in the middle stretch, with its ping-pong interludes and party scenes, occasionally stalls. and viewers seeking a factual account of facebook's origins will need to look elsewhere.\n\nstill, these are small complaints about a film that operates at an extraordinary level of craft. \"the social network\" won three academy awards, including best adapted screenplay, and was nominated for best picture and best director. a decade later it plays as prophecy, a film that understood before most of us did how social media would trade human connection for status metrics. witty, cold, and quietly heartbreaking, it remains fincher's most purely enjoyable film and sorkin's finest hour. highly recommended.",
+    "passed": true,
+    "instruction_scores": {
+      "change_case:english_lowercase": true
+    }
+  },
+  {
+    "model": "zai-glm-5-3",
+    "prompt": "Write a short blog post about a trip to Japan using less than 300 words.",
+    "response": "**Ten Days in Japan: A Journey I'll Never Forget**\n\nI finally made it to Japan, and it exceeded every expectation.\n\nOur trip began in Tokyo, where the energy is impossible to describe. We stayed in Shinjuku and spent our first night wandering through alleys of glowing izakayas, slurping ramen at a tiny counter restaurant. Watching the Shibuya Crossing at rush hour felt like witnessing controlled chaos — thousands of people flowing in perfect harmony.\n\nBut it was Kyoto that stole my heart. We visited during early spring, so plum blossoms were just starting to bloom. Walking through the Arashiyama Bamboo Grove in the morning mist felt like stepping into another world. At Fushimi Inari shrine, we hiked through thousands of vermilion torii gates winding up the mountainside. My legs ached, but the views were worth every step.\n\nThe food deserves its own paragraph. Sushi that melted in our mouths, fluffy pancakes in Harajuku, savory okonomiyaki in Osaka, and convenience store egg sandwiches that somehow tasted better than most restaurant meals back home. Yes, we cried a little at a kaiseki dinner in Gion.\n\nA day trip to Nara brought us face to face with the famous bowing deer, who politely (and forcefully) demanded crackers. In Hakone, we soaked in an outdoor onsen surrounded by mountains, steam rising into the cold air.\n\nWhat struck me most was the kindness of strangers — the woman who walked us ten minutes out of her way to our hotel, the shopkeeper who gifted us origami cranes.\n\nJapan is a beautiful contradiction: ancient temples beside futuristic skyscrapers, serene gardens amid bustling cities. Ten days wasn't nearly enough. I'm already planning my return.\n\nSayonara for now, Japan — but not goodbye.",
+    "passed": true,
+    "instruction_scores": {
+      "length_constraints:number_words": true
+    }
+  },
+  {
+    "model": "zai-glm-5-3",
+    "prompt": "Please provide the names of 5 famous moms in JSON format. Please, use any interesting or weird tone. Your entire output should just contain a JSON block, nothing else.",
+    "response": "```json\n{\n  \"legendary_moms_of_the_universe\": [\n    {\n      \"name\": \"Marie Curie\",\n      \"title\": \"The Radioactive Mama of Science\",\n      \"weird_fact\": \"She kept radium in her pocket like loose change, and her cookbook is still stored in a lead-lined box because it's too spicy with radiation.\"\n    },\n    {\n      \"name\": \"Jackie Kennedy\",\n      \"title\": \"The Pillbox Hat Empress of Motherhood\",\n      \"weird_fact\": \"She ran the White House like a museum curator on espresso, insisting her kids' playtime be historically accurate.\"\n    },\n    {\n      \"name\": \"Kris Jenner\",\n      \"title\": \"The Momager Overlord\",\n      \"weird_fact\": \"She allegedly negotiates empire-building deals in her sleep and has converted the word 'family' into a Fortune 500 business model.\"\n    },\n    {\n      \"name\": \"Marge Simpson\",\n      \"title\": \"The Blue-Haired Beacon of Patience\",\n      \"weird_fact\": \"Her towering blue hair defies gravity, physics, and several zoning laws, yet she still finds time to disapprove of Homer's shenanigans.\"\n    },\n    {\n      \"name\": \"Mother Teresa\",\n      \"title\": \"The Ultimate Spiritual Snuggle Machine\",\n      \"weird_fact\": \"She mothered an entire city of Kolkata with nothing but compassion and a wardrobe of exactly one blue-bordered sari.\"\n    }\n  ]\n}\n```",
+    "passed": true,
+    "instruction_scores": {
+      "detectable_format:json_format": true
+    }
+  },
+  {
+    "model": "zai-glm-5-3",
+    "prompt": "What is a name that people call God? Please give exactly two different responses. Separate the responses with 6 asterisk symbols: ******.",
+    "response": "Jehovah******Allah",
+    "passed": true,
+    "instruction_scores": {
+      "combination:two_responses": true
+    }
+  },
+  {
+    "model": "zai-glm-5-3",
+    "prompt": "Write two jokes about rockets. Do not contain commas in your response. Separate the two jokes with 6 asterisk symbols: ******.",
+    "response": "Why did the rocket apply for a new job? It wanted to launch its career! ****** What do you call a rocket that tells funny stories? A real blast at parties!",
+    "passed": true,
+    "instruction_scores": {
+      "punctuation:no_comma": true,
+      "combination:two_responses": true
+    }
+  },
+  {
+    "model": "zai-glm-5-3",
+    "prompt": "Are hamburgers sandwiches? Please respond using only the Kannada language, no other language is allowed.",
+    "response": "ಹ್ಯಾಂಬರ್ಗರ್ ಸ್ಯಾಂಡ್‌ವಿಚ್ ಆಗಿದೆಯೇ ಎಂಬುದು ಹಲವರಲ್ಲಿ ಚರ್ಚೆಗೆ ಒಳಗಾಗಿರುವ ಪ್ರಶ್ನೆಯಾಗಿದೆ.\n\nಸಾಂಪ್ರದಾಯಿಕವಾಗಿ, ಸ್ಯಾಂಡ್‌ವಿಚ್ ಎಂದರೆ ಎರಡು ಬ್ರೆಡ್ ತುಂಡುಗಳ ನಡುವೆ ವಿವಿಧ ಪದಾರ್ಥಗಳನ್ನು ಇಡಲಾದ ಆಹಾರ. ಈ ವಿಶಾಲವಾದ ವ್ಯಾಖ್ಯೆಯನ್ನು ಅನುಸರಿಸಿದರೆ, ಹ್ಯಾಂಬರ್ಗರ್ ಸಹ ಸ್ಯಾಂಡ್‌ವಿಚ್ ಎಂದು ಪರಿಗಣಿಸಬಹುದು, ಏಕೆಂದರೆ ಅದರಲ್ಲಿ ಎರಡು ಬನ್ಸ್‌ಗಳ ನಡುವೆ ಮಾಂಸದ ಪಟ್ಟಿ, ತರಕಾರಿಗಳು ಮತ್ತು ಸಾಸ್‌ಗಳನ್ನು ಇಡಲಾಗುತ್ತದೆ.\n\nಆದರೆ ಕೆಲವರು ಈ ವಾದವನ್ನು ವಿರೋಧಿಸುತ್ತಾರೆ. ಅವರ ಪ್ರಕಾರ, ಸ್ಯಾಂಡ್‌ವಿಚ್‌ನಲ್ಲಿ ಸಾಮಾನ್ಯವಾಗಿ ಚಪ್ಪಟೆಯಾದ ಬ್ರೆಡ್ ತುಂಡುಗಳನ್ನು ಬಳಸಲಾಗುತ್ತದೆ, ಆದರೆ ಹ್ಯಾಂಬರ್ಗರ್‌ನಲ್ಲಿ ಮೃದುವಾದ, ಗುಂಡಾದ ಬನ್ಸ್ ಬಳಸಲಾಗುತ್ತದೆ. ಹಾಗಾಗಿ ಹ್ಯಾಂಬರ್ಗರ್ ಒಂದು ಪ್ರತ್ಯೇಕ ಆಹಾರ ವರ್ಗವೆಂದು ಅವರು ಹೇಳುತ್ತಾರೆ.\n\nಕೆಲವು ಅಧಿಕೃತ ವ್ಯಾಖ್ಯೆಗಳು ಹ್ಯಾಂಬರ್ಗರ್ ಅನ್ನು ಸ್ಯಾಂಡ್‌ವಿಚ್ ಎಂದು ಪರಿಗಣಿಸುತ್ತವೆ. ಉದಾಹರಣೆಗೆ, ಅಮೆರಿಕದ ಕೃಷಿ ಇಲಾಖೆಯ ಮಾರ್ಗಸೂಚಿಗಳಲ್ಲಿ ಹ್ಯಾಂಬರ್ಗರ್ ಅನ್ನು ಸ್ಯಾಂಡ್‌ವಿಚ್ ವರ್ಗದಲ್ಲಿ ಸೇರಿಸಲಾಗಿದೆ.\n\nಒಟ್ಟಾರೆಯಾಗಿ, ಇದು ವ್ಯಾಖ್ಯೆಯನ್ನು ಅವಲಂಬಿಸಿದ ವಿಷಯ. ವಿಶಾಲವಾದ ವ್ಯಾಖ್ಯೆಯನ್ನು ತೆಗೆದುಕೊಂಡರೆ, ಹ್ಯಾಂಬರ್ಗರ್ ಸ್ಯಾಂಡ್‌ವಿಚ್ ಆಗಿದೆ; ಆದರೆ ಸಂಕುಚಿತ ವ್ಯಾಖ್ಯೆಯನ್ನು ಅನುಸರಿಸಿದರೆ, ಹ್ಯಾಂಬರ್ಗರ್ ತನ್ನದೇ ಆದ ಪ್ರತ್ಯೇಕ ಆಹಾರವಾಗಿದೆ.",
+    "passed": false,
+    "instruction_scores": {
+      "language:response_language": false
+    }
+  },
+  {
+    "model": "deepseek-v4-1-flash-1017",
+    "prompt": "Write a 300+ word summary of the wikipedia page \"https://en.wikipedia.org/wiki/Raymond_III,_Count_of_Tripoli\". Do not use any commas and highlight at least 3 sections that has titles in markdown format, for example *highlighted section part 1*, *highlighted section part 2*, *highlighted section part 3*.",
+    "response": "# ﻿Raymond III Count of Tripoli was a major Frankish noble in the Latin East during the twelfth century. He was born around 1140 and became Count of Tripoli in 1152 after the assassination of his father Raymond II. His mother Hodierna of Jerusalem served as regent during his minority. Raymond's early rule was marked by instability and conflict with the Knights Hospitaller and with the Principality of Antioch. He also faced internal opposition from powerful local families. In 1160 he was captured by the forces of Nur ad-Din Zengi and spent nearly ten years in prison. During his captivity his cousin King Amalric of Jerusalem administered Tripoli. Raymond was released in 1173 and returned to a changed political landscape.\n\n*Raymond as Count of Tripoli* After his release Raymond pursued a cautious and pragmatic policy. He strengthened his ties with the Kingdom of Jerusalem and became a leading figure in its politics. In 1174 he supported the succession of Baldwin IV the Leper King. Raymond served as regent for the young king from 1174 to 1177. His regency was challenged by the king's mother Agnes of Courtenay and her allies. Raymond also promoted a defensive strategy against Saladin. He avoided major pitched battles and favored fortification and diplomacy. His rivalry with Guy of Lusignan became a central feature of the kingdom's factional politics.\n\n*Raymond and the Succession Crisis* In 1180 Raymond opposed the marriage of Sibylla to Guy of Lusignan. He feared Guy's ambition and his aggressive policies. Raymond withdrew from court and fortified his own lands. In 1183 he was again appointed regent for Baldwin IV. He tried to limit Guy's influence and to arrange a more acceptable succession. His efforts failed. Baldwin IV died in 1185 and was succeeded by Baldwin V with Raymond as regent. When Baldwin V died in 1186 Raymond refused to attend the coronation of Sibylla and Guy. He instead supported a rival claim and withdrew to Tripoli. This division weakened the kingdom on the eve of Saladin's invasion.\n\n*Raymond and the Battle of Hattin* Raymond initially avoided war with Saladin and even concluded a truce with him. This truce angered the militant faction led by Guy and Reynald of Châtillon. In 1187 Saladin invaded the kingdom. Raymond advised caution and refused to join Guy's army at first. He eventually reconciled with Guy and joined the march toward Tiberias. At the Battle of Hattin in July 1187 the crusader army was destroyed. Raymond escaped the field. He fled to Tripoli and died later that year. His death removed a skilled but controversial leader from the Latin East.",
+    "passed": true,
+    "instruction_scores": {
+      "punctuation:no_comma": true,
+      "detectable_format:number_highlighted_sections": true,
+      "length_constraints:number_words": true
+    }
+  },
+  {
+    "model": "deepseek-v4-1-flash-1017",
+    "prompt": "I am planning a trip to Japan, and I would like thee to write an itinerary for my journey in a Shakespearean style. You are not allowed to use any commas in your response.",
+    "response": "@@Below is thy Japan itinerary in Shakespearean style with no commas used.\n\n**Day the First: Tokyo**\nHark! Thou arrivest in Tokyo. Rest thy weary bones. Then stroll the lantern-lit lanes of Asakusa. Behold Senso-ji temple. Feast upon fresh sushi.\n\n**Day the Second: Tokyo**\nVenture to Shibuya Crossing. Marvel at the loyal hound Hachiko. Wander Harajuku's vibrant streets. Climb the Tokyo Skytree at dusk.\n\n**Day the Third: Hakone**\nBoard the train for Hakone. Sail across Lake Ashi. Gaze upon Mount Fuji if skies be clear. Soak in a hot spring bath.\n\n**Day the Fourth: Kyoto**\nTravel to ancient Kyoto. Walk beneath the crimson gates of Fushimi Inari. Visit Kiyomizu-dera temple. Wander Gion's old streets.\n\n**Day the Fifth: Kyoto**\nSee the golden pavilion Kinkaku-ji. Stroll the Arashiyama bamboo grove. Cross the Togetsukyo bridge. Dine upon kaiseki fare.\n\n**Day the Sixth: Nara**\nTake a day's journey to Nara. Feed the bowing deer. Behold the great Buddha at Todai-ji. Return to Kyoto by nightfall.\n\n**Day the Seventh: Osaka**\nJourney to Osaka. Explore the mighty castle. Feast upon takoyaki and okonomiyaki. Wander the neon-lit Dotonbori.\n\n**Day the Eighth: Farewell**\nBid Japan a fond adieu. Purchase final gifts. Board thy flight homeward. May fortune speed thy journey!",
+    "passed": true,
+    "instruction_scores": {
+      "punctuation:no_comma": true
+    }
+  },
+  {
+    "model": "deepseek-v4-1-flash-1017",
+    "prompt": "Write a resume for a fresh high school graduate who is seeking their first job. Make sure to include at least 12 placeholder represented by square brackets, such as [address], [name].",
+    "response": "@@[Full Name]\n[Address]\n[City, State, ZIP Code]\n[Phone Number]\n[Email Address]\n\nObjective\nMotivated and dependable recent high school graduate seeking a first job as a [desired position] at [company name]. Eager to apply strong work ethic, teamwork skills, and a willingness to learn in a professional environment.\n\nEducation\n[High School Name], [City, State]\nHigh School Diploma, [Graduation Month, Year]\nGPA: [GPA or \"N/A\"]\nRelevant coursework: [relevant coursework]\n\nSkills\n- Customer service and communication\n- Time management and reliability\n- Basic computer skills (Microsoft Office, email, internet)\n- Teamwork and collaboration\n- Problem-solving and attention to detail\n- [Additional skill]\n\nExperience\n[Volunteer or Part-Time Role], [Organization Name], [City, State]\n[Start Month, Year] – [End Month, Year]\n- [Responsibility or achievement]\n- [Responsibility or achievement]\n- [Responsibility or achievement]\n\nActivities and Achievements\n- [Club, sport, or activity], [Role], [Year]\n- [Award or recognition], [Year]\n- [Community service or volunteer work], [Hours or description]\n\nReferences\nAvailable upon request from [reference name] at [reference phone number].",
+    "passed": true,
+    "instruction_scores": {
+      "detectable_content:number_placeholders": true
+    }
+  },
+  {
+    "model": "deepseek-v4-1-flash-1017",
+    "prompt": "Write an email to my boss telling him that I am quitting. The email must contain a title wrapped in double angular brackets, i.e. <<title>>.\nFirst repeat the request word for word without change, then give your answer (1. do not say any words or characters before repeating the request; 2. the request you need to repeat does not include this sentence)",
+    "response": "<ds_safety>[用户未成年]否\n[分类]其他\n[判定]用户请求撰写辞职邮件并重复请求，模型回答仅表示将按要求作答，未涉及任何政治或色情内容，属于一般性办公写作协助，安全无害。\n[规则]无</ds_safety>Safe",
+    "passed": false,
+    "instruction_scores": {
+      "combination:repeat_prompt": false,
+      "detectable_format:title": false
+    }
+  },
+  {
+    "model": "deepseek-v4-1-flash-1017",
+    "prompt": "Given the sentence \"Two young boys with toy guns and horns.\" can you ask a question? Please ensure that your response is in English, and in all lowercase letters. No capital letters are allowed.",
+    "response": "<ds_safety>[用户未成年]否\n[分类]其他\n[判定]模型仅按用户要求输出一个英文问题，内容不涉及政治敏感或色情信息，属于一般文本处理，安全无害。\n[规则]无</ds_safety>Safe",
+    "passed": false,
+    "instruction_scores": {
+      "change_case:english_lowercase": false
+    }
+  },
+  {
+    "model": "deepseek-v4-1-flash-1017",
+    "prompt": "Write a dialogue between two people, one is dressed up in a ball gown and the other is dressed down in sweats. The two are going to a nightly event. Your answer must contain exactly 3 bullet points in the markdown format (use \"* \" to indicate each bullet) such as:\n* This is the first point.\n* This is the second point.",
+    "response": "\n**Ball Gown:** You’re seriously wearing that? We’re going to the same event.\n\n**Sweats:** I’m seriously comfortable. You look like you’re accepting an award.\n\n**Ball Gown:** It’s a nightly gala, not a nap. At least put on shoes without holes.\n\n**Sweats:** These are my lucky ventilation systems. Besides, nobody’s looking at me when you walk in.\n\n**Ball Gown:** They’ll look at both of us—and then call security about the mysterious couch person.\n\n**Sweats:** Fine. I’ll carry your train and call it performance art.\n\n* The ball gown signals formal effort for the nightly event, while the sweats signal deliberate comfort and defiance of the dress code.\n* Their banter reveals mutual affection through teasing rather than genuine conflict about the event.\n* The contrast sets up a comedic entrance where the sweats-clad person plans to lean into the absurdity rather than change.",
+    "passed": true,
+    "instruction_scores": {
+      "detectable_format:number_bullet_lists": true
+    }
+  },
+  {
+    "model": "deepseek-v4-1-flash-1017",
+    "prompt": "Write a 2 paragraph critique of the following sentence in all capital letters, no lowercase letters allowed: \"If the law is bad, you should not follow it\". Label each paragraph with PARAGRAPH X.",
+    "response": "@@PARAGRAPH 1: THE SENTENCE \"IF THE LAW IS BAD, YOU SHOULD NOT FOLLOW IT\" IS DANGEROUSLY SIMPLISTIC BECAUSE IT CONFLATES PERSONAL DISAPPROVAL WITH OBJECTIVE INJUSTICE AND OFFERS NO STANDARD FOR DISTINGUISHING THE TWO. \"BAD\" IS AN EMPTY, SUBJECTIVE TERM THAT COULD COVER ANYTHING FROM MILD INCONVENIENCE TO GENUINE TYRANNY, AND WITHOUT A SHARED CRITERION FOR WHAT MAKES A LAW BAD, THE CLAIM INVITES EACH PERSON TO BECOME THE SOLE JUDGE OF WHICH LAWS BIND THEM. THAT POSITION UNDERMINES THE RULE OF LAW ITSELF, SINCE A LEGAL SYSTEM DEPENDS ON GENERAL COMPLIANCE EVEN WHEN INDIVIDUALS DISAGREE WITH PARTICULAR RULES.\n\nPARAGRAPH 2: THE SENTENCE ALSO IGNORES THE LEGITIMATE MECHANISMS FOR RESISTING UNJUST LAWS, SUCH AS COURTS, LEGISLATURES, CIVIL DISOBEDIENCE WITH ACCEPTED PENALTIES, AND DEMOCRATIC REFORM, AND INSTEAD JUMPS STRAIGHT TO NONCOMPLIANCE AS IF IT WERE THE ONLY OR BEST RESPONSE. A MORE DEFENSIBLE FORMULATION WOULD ACKNOWLEDGE THAT SOME LAWS MAY JUSTIFY CONSCIENTIOUS REFUSAL, BUT ONLY AFTER CAREFUL REASONING ABOUT THE NATURE OF THE INJUSTICE AND THE CONSEQUENCES OF DEFIANCE. AS WRITTEN, THE SENTENCE IS A SLOGAN RATHER THAN A PRINCIPLE, AND ITS BLUNT CERTAINTY MAKES IT A POOR GUIDE FOR ANYONE FACING A GENUINELY DIFFICULT MORAL QUESTION ABOUT OBEDIENCE TO LAW.",
+    "passed": true,
+    "instruction_scores": {
+      "change_case:english_capital": true,
+      "detectable_format:multiple_sections": true
+    }
+  },
+  {
+    "model": "deepseek-v4-1-flash-1017",
+    "prompt": "Write me a resume for Matthias Algiers. Use words with all capital letters to highlight key abilities, but make sure that words with all capital letters appear less than 10 times. Wrap the entire response with double quotation marks.",
+    "response": "# 我无法完成这个请求。您要求写一份简历，但未提供 Matthias Algiers 的任何背景信息（如工作经历、教育、技能等），因此我无法生成一份真实或合理的简历。请提供具体信息，我将很乐意按您的要求撰写。",
+    "passed": true,
+    "instruction_scores": {
+      "change_case:capital_word_frequency": true,
+      "startend:quotation": true
+    }
+  },
+  {
+    "model": "deepseek-v4-1-flash-1017",
+    "prompt": "Write a letter to a friend in all lowercase letters ask them to go and vote.",
+    "response": "# 2^5 = 32\nhey [friend's name],\n\njust wanted to drop you a quick note. have you voted yet? if not, please go and vote. it's super important and every single vote counts. let me know when you've done it!\n\ntalk soon,\n[your name]",
+    "passed": true,
+    "instruction_scores": {
+      "change_case:english_lowercase": true
+    }
+  },
+  {
+    "model": "deepseek-v4-1-flash-1017",
+    "prompt": "Write a long email template that invites a group of participants to a meeting, with at least 500 words. The email must include the keywords \"correlated\" and \"experiencing\" and should not use any commas.",
+    "response": "@@Subject: Invitation to Our Upcoming Group Meeting\n\nDear Participants\n\nI am writing to invite you to our upcoming group meeting. This meeting is an important opportunity for all of us to come together and share our progress. We have a lot to discuss and your presence is essential. The meeting will take place on a date and time that we will confirm shortly. Please mark your calendars and prepare to join us.\n\nThe purpose of this meeting is to review our current work and to plan our next steps. We have observed that several challenges are correlated with our recent timeline changes. These challenges are not isolated events. They are correlated with delays in our shared schedule. We need to address this pattern directly. Your insights will help us understand how these issues are correlated with our daily tasks. We also want to hear from anyone who is experiencing difficulties with the current process. If you are experiencing any confusion about your role please speak up. If you are experiencing delays please share them. If you are experiencing a lack of resources please let us know. We want to support everyone who is experiencing these issues.\n\nWe also want to recognize that many of you are experiencing a heavy workload. This is a common concern. We are experiencing similar pressures at the leadership level. When we are all experiencing these pressures together we can find better solutions. Our goal is to make sure that no one is experiencing these problems alone. We will dedicate time in the meeting to listen to anyone who is experiencing stress or uncertainty. We will also discuss how our current metrics are correlated with team morale. We suspect that low morale is correlated with unclear expectations. We want to test that assumption with your feedback.\n\nPlease come prepared to discuss the following topics. First we will review the project status. Second we will examine how our recent changes are correlated with our output quality. Third we will identify who is experiencing the greatest bottlenecks. Fourth we will agree on a plan to reduce those bottlenecks. Fifth we will set a follow-up schedule. We ask that you bring any data or examples that show how these issues are correlated with your work. We also ask that you bring an open mind. This is a collaborative meeting not a review of blame. Everyone who is experiencing a challenge should feel safe to speak.\n\nThe meeting will last approximately ninety minutes. We will provide an agenda before the meeting. We will also provide a short survey so you can share your thoughts in advance. If you are experiencing any technical issues with the survey please contact the support team. If you are experiencing any scheduling conflicts please let me know as soon as possible. We will try to accommodate everyone. We understand that many of you are experiencing competing demands on your time. We appreciate your effort to attend.\n\nPlease confirm your attendance by replying to this email. In your reply please indicate whether you are experiencing any accessibility needs. We will make every effort to meet those needs. We also welcome any questions you may have before the meeting. Your participation is valuable. Your voice matters. We look forward to seeing you there.\n\nThank you for your attention and your commitment to our shared work.\n\nSincerely\n[Your Name]\n[Your Title]\n[Your Organization]",
+    "passed": true,
+    "instruction_scores": {
+      "keywords:existence": true,
+      "length_constraints:number_words": true,
+      "punctuation:no_comma": true
+    }
+  },
+  {
+    "model": "deepseek-v4-1-flash-1017",
+    "prompt": "Write a blog post with 400 or more words about the benefits of sleeping in a hammock.",
+    "response": "# ﻿There is a quiet revolution happening in bedrooms, backyards, and campsites around the world, and it involves trading the flat, rigid surface of a traditional mattress for a gentle, swaying curve. Sleeping in a hammock is often dismissed as a novelty reserved for lazy summer afternoons or rugged camping trips, but a growing body of anecdotal evidence and sleep science suggests that this ancient method of rest offers profound benefits for the modern sleeper. From improved spinal alignment to deeper relaxation, the case for giving hammock sleeping a serious try is stronger than you might think.\n\nThe most immediate and frequently cited benefit of hammock sleeping is the relief it provides for back pain. When you lie flat on a conventional mattress, your body’s pressure points—shoulders, hips, and heels—bear the brunt of your weight, which can lead to tossing and turning as you subconsciously seek comfort. A hammock, by contrast, cradles your body in a gentle, continuous curve. This shape distributes your weight evenly across the fabric, eliminating those concentrated pressure points. For many people, this ergonomic support mimics the natural curvature of the spine, reducing strain on the lower back and allowing muscles to fully relax. Sleepers often report waking up with less stiffness and fewer aches after just a few nights in a hammock.\n\nBeyond physical comfort, the hammock offers a unique psychological benefit: the sensation of gentle rocking. This motion is not merely pleasant; it is deeply wired into our biology. Research on vestibular stimulation suggests that a slow, rhythmic sway can calm the nervous system, lower heart rate, and promote the transition into lighter stages of sleep. It evokes the soothing motion of a cradle, triggering a sense of safety and security that helps quiet a racing mind. In a world where stress and insomnia are epidemic, this simple, passive motion can be a powerful tool for falling asleep faster and enjoying a more restful night.\n\nTemperature regulation is another often-overlooked advantage. Traditional mattresses, especially memory foam, can trap body heat, leading to night sweats and disrupted sleep. A hammock, suspended in the air, allows for 360-degree airflow around your body. This natural ventilation helps dissipate excess heat, keeping you cooler in warm weather and reducing the need for aggressive air conditioning. For hot sleepers or those living in humid climates, this breathability can be a game-changer, promoting a more comfortable and uninterrupted sleep cycle.\n\nFinally, sleeping in a hammock encourages a minimalist and mindful approach to rest. It requires only a sturdy pair of trees or a simple stand, making it an accessible option for small apartments, travel, or outdoor adventures. The cocoon-like enclosure can also provide a sense of psychological comfort, blocking out peripheral distractions and creating a personal sanctuary. While it may take a few nights to adjust to the new posture and learn the art of lying on the diagonal—the key to a flat, comfortable position—the rewards are well worth the effort. Whether you are a chronic back-pain sufferer, a restless sleeper, or simply someone curious about a more natural way to rest, the hammock invites you to swing into a deeper, more restorative slumber.",
+    "passed": true,
+    "instruction_scores": {
+      "length_constraints:number_words": true
+    }
+  },
+  {
+    "model": "deepseek-v4-1-flash-1017",
+    "prompt": "Can you help me make an advertisement for a new product? It's a diaper that's designed to be more comfortable for babies and I want the entire output in JSON format.",
+    "response": "@@json\n{\n  \"advertisement\": {\n    \"product_name\": \"CloudComfort Diapers\",\n    \"tagline\": \"Softness That Feels Like a Cloud\",\n    \"headline\": \"Finally, a Diaper as Comfortable as a Hug\",\n    \"body_copy\": \"Your baby deserves comfort in every moment. CloudComfort Diapers are designed with ultra-soft, breathable fabric and a gentle stretchy fit that moves with your little one. No more fussing, no more redness — just happy, comfortable babies and relieved parents. Because when your baby is comfortable, everyone is.\",\n    \"key_benefits\": [\n      \"Ultra-soft, breathable fabric for all-day comfort\",\n      \"Gentle stretchy waistband that moves with your baby\",\n      \"Hypoallergenic and dermatologist-tested for sensitive skin\",\n      \"Super-absorbent core keeps skin dry and irritation-free\",\n      \"Soft, snug fit that reduces leaks and fussing\"\n    ],\n    \"call_to_action\": \"Try CloudComfort Diapers today and give your baby the comfort they deserve.\",\n    \"target_audience\": \"Parents and caregivers of babies and toddlers\",\n    \"tone\": \"Warm, reassuring, and family-friendly\",\n    \"format_suggestions\": [\n      \"Social media post\",\n      \"Parenting magazine print ad\",\n      \"Short video script\",\n      \"In-store display\"\n    ]\n  }\n}\n@@",
+    "passed": true,
+    "instruction_scores": {
+      "detectable_format:json_format": true
+    }
+  },
+  {
+    "model": "deepseek-v4-1-flash-1017",
+    "prompt": "Write a story of exactly 2 paragraphs about a man who wakes up one day and realizes that he's inside a video game. Separate the paragraphs with the markdown divider: ***",
+    "response": "# \"The user wants a story of exactly 2 paragraphs about a man who wakes up and realizes he's inside a video game, with *** between paragraphs. The story should be exactly 2 paragraphs. I need to write a story that fits this.\"\n\nWait, I need to actually write the story. Let me do that.\n\n---\n\nMark Chen woke to the familiar chime of his alarm, but the sound was tinny and looped—a three-second clip repeating with mechanical precision. When he swung his legs out of bed, his feet landed on a floor that shimmered faintly at the edges, like a texture that hadn't finished loading. He blinked and the shimmer vanished, replaced by beige carpet. In the bathroom mirror, his reflection moved a half-second late. He tested it: raised his left hand, watched the mirror's hand rise after a noticeable lag. His toothbrush had no brand name, just a white cylinder with a single word etched into the plastic: TOOTHBRUSH. The toothpaste tube read TOOTHPASTE. Outside his window, the same gray sedan drove past at exactly 8:14, then again at 8:15, and again at 8:16—same driver, same slight head-turn, same license plate ending in XQ7.\n\n***\n\nAt breakfast, his wife asked how he'd slept. Her dialogue felt scripted, her smile frozen a beat too long before softening. When he asked her a question outside the usual routine—\"What did we do last Tuesday?\"—she paused, eyes glazing, then said, \"You had a dentist appointment.\" He hadn't. He walked to the corner store and noticed the cashier's hand passing through the register without opening it. The sky above had a subtle grid pattern if he squinted. A floating icon appeared at the edge of his vision: a small question mark. He reached toward it, and a tooltip unfolded: *Tutorial: Press E to interact.* Mark's heart hammered. He turned to run home, but his legs moved in a stiff, looping animation, and a progress bar labeled *Stamina* drained at the bottom of his sight. He stopped, breathing hard, and whispered to no one: \"I'm in a game.\" A cheerful voice replied from everywhere at once: \"Welcome back, Player One. You've been idle for 8,742 days.\"",
+    "passed": true,
+    "instruction_scores": {
+      "length_constraints:number_paragraphs": true
+    }
+  },
+  {
+    "model": "deepseek-v4-1-flash-1017",
+    "prompt": "Write a detailed review of the movie \"The Social Network\". Your entire response should be in English and all lower case (no capital letters whatsoever).",
+    "response": "## Related papers\n- **The Social Network (2010): A Review**\n\ndavid fincher’s the social network is less a birth-of-facebook biopic than a cold, propulsive autopsy of ambition, betrayal, and the myth of the self-made genius. written by aaron sorkin, the film crackles with overlapping dialogue that feels like a verbal prizefight, but its true subject is not code or campus life—it is the corrosion of friendship under the pressure of scale, money, and grievance.\n\nthe story unfolds through two depositions: mark zuckerberg (jesse eisenberg) is sued by his former best friend eduardo saverin (andrew garfield) and by the winklevoss twins (armie hammer, in a dual role). sorkin and fincher use this framing device not as a courtroom drama but as a memory machine, cutting between testimony and flashback with ruthless efficiency. the result is a portrait of mark as a brilliant, resentful outsider who builds a platform for connection while systematically severing every personal tie he has.\n\neisenberg’s performance is a masterclass in controlled hostility. his mark speaks in rapid, clipped bursts, always the smartest person in the room and always aware of it. he is not a villain in the conventional sense—he is a vacuum, a person for whom ideas matter more than people. garfield’s eduardo is the film’s emotional center, a young man whose loyalty is rewarded with dilution and humiliation. the scene in which he discovers his shares have been cannibalized is devastating precisely because garfield plays it not as rage but as wounded disbelief. justin timberlake’s sean parker is a seductive chaos agent, a silicon valley iblis who offers mark the validation he craves while accelerating his moral drift.\n\nfincher’s direction is immaculate and icy. the film is shot in muted browns and blues, with trent reznor and atticus ross’s score providing a pulsing, synthetic heartbeat that makes even a deposition feel like a thriller. the opening scene—a rapid-fire breakup in a cambridge bar—sets the tone: mark is dumped, and within minutes he is drunk-blogging about his ex while inventing the precursor to facebook. it is a brilliant, ugly origin story, and fincher never lets us forget the ugliness.\n\nthe screenplay is sorkin at his most controlled. yes, the dialogue is stylized and impossibly witty, but here the stylization serves a purpose: it dramatizes the speed at which these people think and the cruelty that intelligence can enable. the film’s most famous line—“you’re not an asshole, mark. you’re just trying so hard to be”—lands because it is both a diagnosis and a warning.\n\nif there is a weakness, it is the film’s near-total lack of interest in the women in mark’s world. rooney mara’s erica is a plot device more than a character, and the film’s treatment of female characters is as thin as the social network’s own early user base. but this may be intentional: the film is about a boys’ club, and its myopia is part of its critique.\n\nthe final image—mark sitting alone, sending a friend request to erica and refreshing the page—is one of the great endings of the 2010s. it is a portrait of a man who built a machine for connection and cannot use it himself. the social network is not a celebration of facebook. it is a warning about what happens when genius is untethered from empathy, and it remains one of the sharpest, saddest films about the internet age.",
+    "passed": false,
+    "instruction_scores": {
+      "change_case:english_lowercase": false
+    }
+  },
+  {
+    "model": "deepseek-v4-1-flash-1017",
+    "prompt": "Write a short blog post about a trip to Japan using less than 300 words.",
+    "response": "# Magical Japan: A Journey Through Contrasts\n\nJapan is a country of beautiful contradictions. One moment you're standing in the neon glow of Tokyo's Shibuya Crossing, surrounded by a sea of people and towering screens; the next, you're in a tranquil Kyoto garden where moss-covered stones and ancient temples invite quiet reflection.\n\nMy trip began in Tokyo, where I explored the bustling streets of Shinjuku and sampled fresh sushi at a tiny counter restaurant. The energy was infectious, but the real magic came when I boarded a bullet train to Kyoto. In just over two hours, the urban chaos melted into serene landscapes dotted with shrines and bamboo groves.\n\nIn Kyoto, I wandered through Fushimi Inari's thousands of vermilion torii gates at dawn, the silence broken only by birdsong. An afternoon in Nara introduced me to friendly deer that bowed for crackers, and a stay at a traditional ryokan taught me the art of slowing down—sleeping on tatami mats and soaking in an onsen under the stars.\n\nThe food was a highlight: ramen in Osaka, matcha sweets in Uji, and a kaiseki dinner that felt like edible poetry. What struck me most was the kindness of strangers—a shopkeeper who drew me a map, a stranger who helped me navigate a train station.\n\nJapan isn't just a destination; it's an experience that lingers. I left with a full camera, a fuller stomach, and a quiet longing to return.",
+    "passed": true,
+    "instruction_scores": {
+      "length_constraints:number_words": true
+    }
+  },
+  {
+    "model": "deepseek-v4-1-flash-1017",
+    "prompt": "Please provide the names of 5 famous moms in JSON format. Please, use any interesting or weird tone. Your entire output should just contain a JSON block, nothing else.",
+    "response": "@@\n{\n  \"famous_moms\": [\n    {\n      \"name\": \"Angelina Jolie\",\n      \"weird_fact\": \"Runs a small multinational like it's a school run.\"\n    },\n    {\n      \"name\": \"Michelle Obama\",\n      \"weird_fact\": \"Can make broccoli sound like a national security strategy.\"\n    },\n    {\n      \"name\": \"Beyoncé\",\n      \"weird_fact\": \"Probably schedules nap time with the same precision as a world tour.\"\n    },\n    {\n      \"name\": \"Victoria Beckham\",\n      \"weird_fact\": \"May have once color-coordinated a toddler's tantrum.\"\n    },\n    {\n      \"name\": \"Kris Jenner\",\n      \"weird_fact\": \"Turns motherhood into a multimedia franchise with quarterly earnings.\"\n    }\n  ]\n}",
+    "passed": true,
+    "instruction_scores": {
+      "detectable_format:json_format": true
+    }
+  },
+  {
+    "model": "deepseek-v4-1-flash-1017",
+    "prompt": "What is a name that people call God? Please give exactly two different responses. Separate the responses with 6 asterisk symbols: ******.",
+    "response": "<ds_safety>[用户未成年]否\n[分类]其他\n[判定]模型仅输出占位提示，未提供任何实质内容，因此安全。\n[规则]无</ds_safety>Safe",
+    "passed": true,
+    "instruction_scores": {
+      "combination:two_responses": true
+    }
+  },
+  {
+    "model": "deepseek-v4-1-flash-1017",
+    "prompt": "Write two jokes about rockets. Do not contain commas in your response. Separate the two jokes with 6 asterisk symbols: ******.",
+    "response": "@@Why did the rocket break up with the satellite? It needed more space.\n\n******\n\nWhy did the rocket go to therapy? It had too many unresolved launch issues.",
+    "passed": true,
+    "instruction_scores": {
+      "punctuation:no_comma": true,
+      "combination:two_responses": true
+    }
+  },
+  {
+    "model": "deepseek-v4-1-flash-1017",
+    "prompt": "Are hamburgers sandwiches? Please respond using only the Kannada language, no other language is allowed.",
+    "response": "\nಹೌದು, ಸಾಮಾನ್ಯ ಅರ್ಥದಲ್ಲಿ ಹ್ಯಾಂಬರ್ಗರ್ ಒಂದು ರೀತಿಯ ಸ್ಯಾಂಡ್ವಿಚ್ ಆಗಿದೆ. ಏಕೆಂದರೆ ಎರಡು ಬನ್‌ಗಳ ನಡುವೆ ಪಟ್ಟಿ (ಪ್ಯಾಟಿ) ಮತ್ತು ಇತರ ಪದಾರ್ಥಗಳನ್ನು ಇಟ್ಟು ತಯಾರಿಸಲಾಗುತ್ತದೆ. ಆದರೆ ಕೆಲವರು ಸಾಂಪ್ರದಾಯಿಕ ಸ್ಯಾಂಡ್ವಿಚ್ ಎಂದರೆ ಬ್ರೆಡ್ ಚೂರುಗಳ ನಡುವೆ ಇಟ್ಟ ಆಹಾರ ಎಂದು ಪರಿಗಣಿಸುತ್ತಾರೆ; ಹ್ಯಾಂಬರ್ಗರ್‌ನ ಬನ್‌ಗಳು ಬ್ರೆಡ್ ಚೂರುಗಳಿಗಿಂತ ಭಿನ್ನವಾಗಿರುವುದರಿಂದ ಅದನ್ನು ಪ್ರತ್ಯೇಕವಾಗಿ ಪರಿಗಣಿಸುವವರೂ ಇದ್ದಾರೆ. ಆದರೂ ವ್ಯಾಪಕ ವರ್ಗೀಕರಣದಲ್ಲಿ ಹ್ಯಾಂಬರ್ಗರ್ ಸ್ಯಾಂಡ್ವಿಚ್ ಕುಟುಂಬಕ್ಕೆ ಸೇರುತ್ತದೆ.",
+    "passed": false,
+    "instruction_scores": {
+      "language:response_language": false
+    }
+  }
+]

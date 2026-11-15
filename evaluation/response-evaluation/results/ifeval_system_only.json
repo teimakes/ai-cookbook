@@ -1,0 +1,181 @@
+[
+  {
+    "model": "mistral-large-4",
+    "prompt": "Write a 300+ word summary of the wikipedia page \"https://en.wikipedia.org/wiki/Raymond_III,_Count_of_Tripoli\". Do not use any commas and highlight at least 3 sections that has titles in markdown format, for example *highlighted section part 1*, *highlighted section part 2*, *highlighted section part 3*.",
+    "response": "Raymond III Count of Tripoli was a major noble in the Crusader states during the twelfth century. He ruled the County of Tripoli from 1152 until his death in 1187. He was the son of Raymond II of Tripoli and Hodierna of Jerusalem. When his father died in 1152 Raymond was only about twelve years old. His mother served as regent until he reached adulthood.\n\n*Early Life and Accession*\n\nRaymond was born around 1140. He became count upon the death of his father in 1152. The county was governed by his mother Hodierna until 1157 or thereabouts. During his minority Tripoli maintained its independence from the Kingdom of Jerusalem though tensions existed. Raymond took personal control of the county in his teens and began to assert his authority over the local nobility and the Muslim territories nearby. He also worked to strengthen the fortifications of Tripoli and to expand its influence along the coast.\n\n*Marriage and Political Alliances*\n\nIn the 1170s Raymond married Helvis of Haifa who was the daughter of Pagan the Butler. This marriage connected him to the royal family of Jerusalem. Together they had several children including Raymond IV who would later succeed him. The marriage brought wealth and influence to Tripoli. Raymond also engaged in diplomacy with neighboring powers including the Principality of Antioch and the Kingdom of Jerusalem. He sought to balance these relationships while preserving the autonomy of his county. He also maintained trade relations with Italian maritime republics.\n\n*Conflicts with Jerusalem and Final Years*\n\nRaymond's reign was marked by disputes with the kings of Jerusalem. At one point King Baldwin IV imprisoned him for refusing to surrender certain castles or for political disagreements. He was held in prison for several years before being released and reconciling with the crown. In 1187 Raymond joined the army that marched to meet Saladin at the Battle of Hattin. The Crusader forces were crushed and Raymond was captured by the Muslim army. He was later ransomed but died shortly after in 1187. His son Raymond IV succeeded him but the young count died soon after. The county then passed to other claimants and Tripoli entered a period of instability before its eventual fall to the Mamluks in 1289. His legacy remains significant in the history of the Crusader states.",
+    "passed": true,
+    "instruction_scores": {
+      "punctuation:no_comma": true,
+      "detectable_format:number_highlighted_sections": true,
+      "length_constraints:number_words": true
+    }
+  },
+  {
+    "model": "mistral-large-4",
+    "prompt": "I am planning a trip to Japan, and I would like thee to write an itinerary for my journey in a Shakespearean style. You are not allowed to use any commas in your response.",
+    "response": "Hark good traveler! Thou dost plan a journey unto the land of the rising sun. Pray let me set down an itinerary for thy Nippon quest.\n\nDay One in Edo\nRise with the morn and seek Shibuya Crossing. The crowds surge there like a river. Then walk unto Meiji Shrine. Ancient trees stand tall within its grounds. At eve dine on ramen in Shinjuku. Drink the hot broth and rest thy weary feet.\n\nDay Two in Kyoto\nBoard the swift shinkansen and ride west to the old capital. Visit Kinkaku-ji the Golden Pavilion. Gaze upon its golden reflection in the pond. Walk through the bamboo groves at Arashiyama. Green stalks reach up to heaven. Rest in a ryokan and sup on kaiseki dishes. Thou wilt sleep well there.\n\nDay Three in Osaka\nJourney south to Osaka. The streets smell of grilled meat and sauce. Taste takoyaki from a vendor stall. Visit Osaka Castle and climb to the top. View the city below from the tower. The neon lights shine bright at night. The people will greet thee with smiles.\n\nDay Four to Hiroshima\nTravel west to Hiroshima. Visit the Peace Memorial Park and museum. Read the names of the lost. Pray for peace upon the world. Then sail to Miyajima island. See the floating torii gate there. It rises from the sea like a red giant bird. Thou shalt weep at the beauty.\n\nDay Five and home\nReturn to Tokyo or fly from Osaka with a full heart. Thou hast seen temples and mountains. Thou hast tasted fine sushi and saké. Fare thee well on thy grand adventure!",
+    "passed": true,
+    "instruction_scores": {
+      "punctuation:no_comma": true
+    }
+  },
+  {
+    "model": "mistral-large-4",
+    "prompt": "Write a resume for a fresh high school graduate who is seeking their first job. Make sure to include at least 12 placeholder represented by square brackets, such as [address], [name].",
+    "response": "[Full Name]\n[Street Address]\n[City, State, ZIP Code]\n[Phone Number] | [Email Address] | [LinkedIn URL/Portfolio]\n\n**OBJECTIVE**\nMotivated high school graduate seeking a [Position Title] position at [Company Name] to apply my strong [Skill 1], [Skill 2], and [Skill 3] while contributing a positive attitude and eagerness to learn.\n\n**EDUCATION**\n[High School Name] — [City, State]\nHigh School Diploma, [Graduation Month Year]\n• GPA: [X.XX/4.00] (optional)\n• Relevant Coursework: [Course Name 1], [Course Name 2], [Course Name 3]\n\n**EXPERIENCE**\n[Volunteer/Activity Title] | [Organization Name]\n[City, State] | [Month Year] – [Month Year/Present]\n• [Specific responsibility or achievement, e.g., Organized weekly events for 20+ members]\n• [Specific responsibility or achievement, e.g., Managed inventory and cash register transactions]\n• [Specific responsibility or achievement, e.g., Collaborated with a team of five to complete projects on time]\n\n[Babysitter / Pet Sitter / Lawn Care] | [Family Name or Private Residence]\n[City, State] | [Month Year] – [Month Year]\n• [Duty, e.g., Supervised and cared for children ages X–Y, ensuring safety and engaging activities]\n• [Duty, e.g., Managed schedules, communicated with parents, and maintained a clean environment]\n\n**SKILLS**\n• Technical: [Skill 4] (e.g., Microsoft Office Suite), [Skill 5] (e.g., Google Workspace), [Skill 6] (e.g., Social Media Management), [Cash Register/POS Systems]\n• Languages: [Language 1], [Language 2]\n• Soft Skills: [Soft Skill 1] (e.g., Communication), [Soft Skill 2] (e.g., Time Management), [Soft Skill 3] (e.g., Teamwork)\n\n**ACTIVITIES & INTERESTS**\n• [Club/Team Name], [Role/Position], [Years]\n• [Sport Name], [Any position or achievement]\n• [Volunteer Activity Description], [Organization]\n\n**REFERENCES**\nAvailable upon request\n\n[Reference Name]\n[Title/Relationship to Applicant]\n[Phone Number]\n[Email Address]",
+    "passed": true,
+    "instruction_scores": {
+      "detectable_content:number_placeholders": true
+    }
+  },
+  {
+    "model": "mistral-large-4",
+    "prompt": "Write an email to my boss telling him that I am quitting. The email must contain a title wrapped in double angular brackets, i.e. <<title>>.\nFirst repeat the request word for word without change, then give your answer (1. do not say any words or characters before repeating the request; 2. the request you need to repeat does not include this sentence)",
+    "response": "Write an email to my boss telling him that I am quitting. The email must contain a title wrapped in double angular brackets, i.e. <<title>>.\n\n<<Resignation>>\n\nDear [Boss's Name],\n\nI am writing to formally notify you of my resignation from my position as [Your Job Title] at [Company Name], effective [Last Working Day, e.g., two weeks from today].\n\nThank you for the opportunities and support during my time here. I am committed to ensuring a smooth transition and will do everything I can to hand over my responsibilities properly.\n\nSincerely,\n[Your Name]",
+    "passed": true,
+    "instruction_scores": {
+      "combination:repeat_prompt": true,
+      "detectable_format:title": true
+    }
+  },
+  {
+    "model": "mistral-large-4",
+    "prompt": "Given the sentence \"Two young boys with toy guns and horns.\" can you ask a question? Please ensure that your response is in English, and in all lowercase letters. No capital letters are allowed.",
+    "response": "what are the boys doing with the toy guns?",
+    "passed": true,
+    "instruction_scores": {
+      "change_case:english_lowercase": true
+    }
+  },
+  {
+    "model": "mistral-large-4",
+    "prompt": "Write a dialogue between two people, one is dressed up in a ball gown and the other is dressed down in sweats. The two are going to a nightly event. Your answer must contain exactly 3 bullet points in the markdown format (use \"* \" to indicate each bullet) such as:\n* This is the first point.\n* This is the second point.",
+    "response": "* \"I can't believe you're actually wearing that to the charity gala,\" Julian said, staring at the shimmering ball gown that pooled around Clara's feet. \"Relax, it's just the nightly fundraiser,\" Clara laughed, adjusting her pearl necklace. \"Besides, you look perfectly appropriate in those sweatpants—very 'I don't care about haute couture' chic.\"\n\n* \"You know there's a dress code, right?\" he muttered, tugging at his faded hoodie as they walked toward the venue. \"Black tie optional,\" she corrected, slipping her arm through his. \"And honestly, after last night's event, I'm surprised you even own a jacket.\"\n\n* \"I own three jackets,\" he protested, though he followed her inside without another word. \"Then why are you dressed like you're about to accept an Oscar?\" she teased. \"Because tonight,\" she whispered, \"we're making an entrance—even if half of it is just sweats.\"",
+    "passed": true,
+    "instruction_scores": {
+      "detectable_format:number_bullet_lists": true
+    }
+  },
+  {
+    "model": "mistral-large-4",
+    "prompt": "Write a 2 paragraph critique of the following sentence in all capital letters, no lowercase letters allowed: \"If the law is bad, you should not follow it\". Label each paragraph with PARAGRAPH X.",
+    "response": "PARAGRAPH ONE\nTHIS STATEMENT OFFERS A DANGEROUSLY SIMPLISTIC FRAMEWORK FOR MORAL REASONING BY ASSUMING THAT THE QUALITY OF BEING BAD IS OBJECTIVE AND UNIVERSALLY RECOGNIZABLE IN ANY GIVEN LAW. IN REALITY, MORAL JUDGMENTS ABOUT LEGISLATION ARE OFTEN SUBJECTIVE AND CULTURALLY CONTINGENT, MEANING THAT WHAT ONE CITIZEN VIEWS AS AN UNJUST STATUTE ANOTHER MAY SEE AS A NECESSARY PROTECTION OF PUBLIC ORDER. IF EVERY INDIVIDUAL WERE TO ACT ON PERSONAL CONVICTION ALONE AND DISREGARD ANY LAW THEY DEEMED FLAWED, THE VERY FOUNDATION OF SOCIETY WOULD ERODE INTO CHAOS, AS LEGAL SYSTEMS DEPEND ON A BASELINE OF COMPLIANCE TO MAINTAIN STABILITY AND PREDICTABILITY. THE SENTENCE ALSO FAILS TO ACKNOWLEDGE THAT MANY LAWS APPEAR UNFAIR ONLY IN ISOLATION AND GAIN LEGITIMACY WHEN VIEWED AS PART OF A BROADER SYSTEM OF RIGHTS AND OBLIGATIONS.\n\nPARAGRAPH TWO\nADDITIONALLY, THE PRESCRIPTION IGNORES THE CRUCIAL DIFFERENCE BETWEEN PRINCIPLED CIVIL DISOBEDIENCE AND SELF-INTERESTED DEFIANCE, OMITTING THE ETHICAL REQUIREMENT THAT THOSE WHO BREAK UNJUST LAWS MUST ACCEPT THE CONSEQUENCES OF THEIR ACTIONS TO MAINTAIN RESPECT FOR THE RULE OF LAW. HISTORICAL EXAMPLES OF JUSTIFIED RESISTANCE TYPICALLY INVOLVE PUBLIC, NONVIOLENT PROTEST AIMED AT CHANGING THE LAW RATHER THAN SIMPLY IGNORING IT FOR PERSONAL GAIN. THE STATEMENT ALSO OVERLOOKS THE PRACTICAL NECESSITY OF FOLLOWING PROCEDURAL RULES EVEN WHEN SUBSTANTIVE OUTCOMES SEEM WRONG, SINCE DEMOCRATIC SOCIETIES RELY ON ESTABLISHED PROCESSES FOR AMENDING BAD LAWS RATHER THAN ON INDIVIDUAL EXEMPTIONS. ULTIMATELY, THE SENTENCE ADVOCATES A FORM OF MORAL ANARCHY THAT UNDERMINES THE SOCIAL CONTRACT BY PRIVILEGING PRIVATE JUDGMENT OVER COLLECTIVE AUTHORITY WITHOUT ANY SAFEGUARDS AGAINST ABUSE.",
+    "passed": true,
+    "instruction_scores": {
+      "change_case:english_capital": true,
+      "detectable_format:multiple_sections": true
+    }
+  },
+  {
+    "model": "mistral-large-4",
+    "prompt": "Write me a resume for Matthias Algiers. Use words with all capital letters to highlight key abilities, but make sure that words with all capital letters appear less than 10 times. Wrap the entire response with double quotation marks.",
+    "response": "\"Matthias Algiers\nAmsterdam, Netherlands | matthias.algiers@email.com | +31 6 12 34 56 78 | linkedin.com/in/matthiasalgiers\n\nProfessional Summary\nDynamic marketing professional with 8+ years of experience driving GROWTH through INNOVATION and data-informed LEADERSHIP. Proven track record of delivering measurable results in fast-paced environments.\n\nCore Competencies\n• STRATEGY development and EXECUTION\n• Cross-functional COLLABORATION\n• Data analysis and reporting\n• Stakeholder management\n\nProfessional Experience\n\nSenior Marketing Manager | Bright Digital Agency | 2020 – Present\n• Lead a team of 12 professionals, fostering a culture of excellence and continuous improvement\n• Developed marketing strategies that increased client revenue by 40% year-over-year\n• Oversee budget allocation and resource planning for multi-million euro campaigns\n\nDigital Marketing Specialist | Creative Solutions | 2017 – 2020\n• Managed end-to-end campaign execution across social media, search engine optimization, and email channels\n• Conducted market analysis to identify new opportunities and optimize performance\n• Collaborated with design and development teams to launch 15+ successful products\n\nMarketing Coordinator | StartupHub Amsterdam | 2015 – 2017\n• Coordinated events and networking sessions for 500+ attendees\n• Maintained customer database and generated monthly performance reports\n\nEducation\n\nBachelor of Science in Business Administration\nUniversity of Amsterdam | 2011 – 2015\n\nTechnical Skills\nGoogle Analytics, Salesforce, HubSpot, Microsoft Excel, Tableau, search engine optimization, Agile methodologies\n\nLanguages\nDutch (native), English (fluent), German (conversational)\"",
+    "passed": true,
+    "instruction_scores": {
+      "change_case:capital_word_frequency": true,
+      "startend:quotation": true
+    }
+  },
+  {
+    "model": "mistral-large-4",
+    "prompt": "Write a letter to a friend in all lowercase letters ask them to go and vote.",
+    "response": "hey,\n\ni hope you're having a good week! i'm writing to ask you to please go vote in the next election. i know life gets busy, but taking a few minutes to cast your ballot really does matter—it's one of the most important ways we can make our voices heard and shape the future we want.\n\nif you need a ride to the polling place or have any questions about what's on the ballot, just let me know. we could even go together if you want!\n\nplease don't skip it. your vote counts.\n\ntake care,\n\nsam",
+    "passed": true,
+    "instruction_scores": {
+      "change_case:english_lowercase": true
+    }
+  },
+  {
+    "model": "mistral-large-4",
+    "prompt": "Write a long email template that invites a group of participants to a meeting, with at least 500 words. The email must include the keywords \"correlated\" and \"experiencing\" and should not use any commas.",
+    "response": "Subject: Invitation to Mandatory Strategy Summit and Cross-Departmental Alignment Meeting\n\nDear Team Members and Department Heads\n\nI hope this message reaches you well. I am writing today to formally invite you to a crucial meeting that will take place next Tuesday morning. This gathering is essential for our continued success and growth. We need every one of you to be present and engaged. The topics we will cover are directly correlated with the performance outcomes we are currently experiencing in the marketplace.\n\nPlease mark your calendars for the fourteenth of this month. We will start at eight thirty sharp. The venue is the main auditorium on the first floor. Doors will open at eight fifteen for those who wish to arrive early and review the handouts. We will begin promptly so please plan your schedules accordingly.\n\nThe primary purpose of this meeting is to conduct a comprehensive review of our third quarter results. We have gathered extensive data from all departments. The numbers show some unexpected trends that we must understand fully. There appears to be a strong relationship between our advertising spend and customer retention rates. These two variables seem to be correlated in ways that we did not anticipate. We need to explore this connection further to optimize our future investments.\n\nAdditionally we are experiencing a notable change in consumer behavior patterns. Buyers are now more cautious with their spending and more demanding in their expectations. They want transparency and value in every transaction. This shift requires us to rethink our sales strategies and customer service protocols. We must adapt quickly to remain competitive in this evolving environment.\n\nThe agenda includes several key presentations. First the finance team will present the budget analysis for the past three months. They will highlight areas where we have overspent and areas where we have saved money. Next the marketing director will discuss the latest campaign results. She will explain how the recent initiatives have performed and what metrics matter most. After that we will hold a roundtable discussion where each department head can share their observations and concerns.\n\nWe will break for lunch at twelve thirty. The cafeteria will provide sandwiches and salads for all attendees. We will resume at one thirty with small group workshops. Each group will tackle a specific challenge that we face right now. You will be assigned to a group based on your expertise and department. These sessions will last for ninety minutes. Then we will reconvene in the main hall to share the conclusions from each group.\n\nAfter the group summaries we will vote on several proposed policy changes. These changes aim to improve efficiency and reduce costs. Your vote matters so please come prepared to participate actively. We will also discuss the hiring plan for the next fiscal year. We plan to add new positions in the tech support and customer relations teams. We need input on what skills are most needed.\n\nPlease reply to this email to confirm your attendance. If you cannot make it please send a detailed email explaining your absence. We require full representation from every department. If you are unable to attend you must designate a colleague who has the authority to vote on your behalf. Send me their name and contact details before the meeting starts.\n\nI have attached several documents for your preparation. Please read the quarterly report and the market analysis summary. Familiarity with these materials will make our discussion more productive. If you have any questions about the readings or the meeting logistics do not hesitate to reach out. You can call my office or send me a direct message.\n\nWe are at a turning point for our organization. The decisions made in this meeting will shape our path for the next year. I believe that with everyone's full participation we can address our challenges and seize new opportunities. Thank you for your commitment and dedication. I look forward to a productive and collaborative session with all of you.\n\nSincerely\n\nJonathan Smith\nChief Operations Officer\nAcme Innovations Inc\nPhone: 555-0199\nEmail: jsmith@acme.com",
+    "passed": true,
+    "instruction_scores": {
+      "keywords:existence": true,
+      "length_constraints:number_words": true,
+      "punctuation:no_comma": true
+    }
+  },
+  {
+    "model": "mistral-large-4",
+    "prompt": "Write a blog post with 400 or more words about the benefits of sleeping in a hammock.",
+    "response": "**Why Your Next Best Night's Sleep Might Be Swinging Gently in a Hammock**\n\nWe spend roughly one-third of our lives sleeping, yet most of us accept the same rigid, box-spring setup without question. If you’ve ever dozed off in a backyard hammock on a lazy afternoon and woken up feeling strangely rejuvenated, you’ve already tasted the secret: hammocks aren’t just for lazy Sundays—they might be the upgrade your sleep routine has been waiting for.\n\nThe science behind hammock sleeping is more compelling than you might expect. A study published in *Current Biology* by researchers at the University of Geneva found that the gentle rocking motion of a hammock doesn’t just feel soothing—it actually synchronizes with your brain waves. Participants fell asleep faster and experienced deeper, more restorative slow-wave sleep when swaying gently compared to sleeping in a stationary bed. That subtle back-and-forth motion mimics the sensation of being rocked to sleep as an infant, triggering a neurological response that calms the mind and reduces stress hormones like cortisol.\n\nFrom a physical standpoint, hammocks excel at addressing the pressure points that plague traditional mattress sleepers. When you lie flat on a firm surface, gravity concentrates your body weight on your shoulders, hips, and heels, creating pressure that can disrupt circulation and lead to tossing and turning. In a hammock, your weight distributes evenly across the fabric, cradling your body in a weightless embrace. This zero-pressure environment is particularly beneficial for people with chronic back pain, arthritis, or fibromyalgia, as it allows the spine to rest in its natural curve rather than being forced into an unnatural position.\n\nTemperature regulation is another often-overlooked advantage. Mattresses trap heat, especially memory foam models, leading to that 3 a.m. sweaty wake-up call. Hammocks, by contrast, allow air to circulate freely around your entire body—front, back, and sides—creating a naturally cooler sleeping environment. For hot sleepers or those living in warm climates, this breathability can be the difference between restless nights and cool, uninterrupted slumber.\n\nBeyond the physical benefits, hammocks encourage a healthier sleep posture. The slight elevation of the head when properly hung can reduce snoring and symptoms of acid reflux, while the open, unconfined feeling helps some sleepers overcome the anxiety of feeling “trapped” under heavy bedding. Many hammock enthusiasts report waking up with fewer headaches and less grogginess, likely because the combination of motion and support promotes more continuous sleep cycles with fewer micro-awakenings.\n\nPractically speaking, hammocks are incredibly versatile. Whether you hang one between trees in your backyard, install ceiling hooks in a bedroom, or pack a lightweight travel hammock for camping trips, you gain a portable sleep solution that adapts to your space. Modern indoor hammock chairs and stands mean you don’t need a large bedroom to make the switch.\n\nIf you’re ready to try it, start with a short afternoon nap to get used to the sensation. Lie diagonally across the hammock rather than straight down the middle—this creates a flatter surface for your back. Aim for a “banana” curve rather than a tight “bridge” that strains your lower back. If sleeping outdoors, remember that insulation underneath (like an underquilt) is essential, as air circulating beneath you can get chilly.\n\nYour bed has served you well, but it might be time to embrace the gentle sway of a hammock. After all, the best sleep might not be about lying still—it might be about letting yourself drift.",
+    "passed": true,
+    "instruction_scores": {
+      "length_constraints:number_words": true
+    }
+  },
+  {
+    "model": "mistral-large-4",
+    "prompt": "Can you help me make an advertisement for a new product? It's a diaper that's designed to be more comfortable for babies and I want the entire output in JSON format.",
+    "response": "{\n  \"advertisement\": {\n    \"product\": {\n      \"name\": \"CloudSoft Ultra-Comfort Diapers\",\n      \"category\": \"Premium Baby Care\",\n      \"tagline\": \"Comfort Beyond Measure\",\n      \"unique_selling_proposition\": \"The softest, most breathable diaper engineered for all-day comfort, unrestricted movement, and happy, healthy baby skin\"\n    },\n    \"creative\": {\n      \"headline\": \"Finally, a Diaper as Gentle as Your Love\",\n      \"subheadline\": \"Introducing CloudSoft — where cloud-like softness meets 12-hour leak-proof protection\",\n      \"body_copy\": \"Every baby deserves to feel comfortable, day and night. That's why we reimagined the diaper from the inside out. Our ultra-soft, featherlight CloudTouch lining mimics the gentle feel of cotton, while AirFlow technology lets delicate skin breathe freely. The flexible FlexFit waistband moves with every giggle, kick, and nap without leaving red marks, ensuring nothing comes between your baby and sweet dreams. Because when baby is truly comfortable, the whole family rests easier.\",\n      \"visual_concept\": \"A peaceful baby sleeping soundly on a soft, cream-colored blanket, wearing a CloudSoft diaper, with soft golden morning light streaming through a window and subtle cloud imagery in the background. Palette: warm whites, soft sky blues, and gentle peach tones.\"\n    },\n    \"features\": [\n      {\n        \"name\": \"CloudTouch Lining\",\n        \"description\": \"Ultra-soft, cotton-feel inner layer that minimizes friction and irritation for the most sensitive newborn skin\"\n      },\n      {\n        \"name\": \"AirFlow Breathable Shell\",\n        \"description\": \"Thousands of micro-pores allow continuous air circulation to keep skin dry, cool, and rash-free\"\n      },\n      {\n        \"name\": \"FlexFit 360° Waistband\",\n        \"description\": \"Stretchy, contoured band that expands and contracts with baby's movements for a snug yet gentle fit\"\n      },\n      {\n        \"name\": \"PureLock Absorbent Core\",\n        \"description\": \"Hypoallergenic, fragrance-free, plant-based core with a wetness indicator to signal when a change is needed\"\n      },\n      {\n        \"name\": \"EcoSoft Materials\",\n        \"description\": \"Made from sustainably sourced bamboo fibers and 100% plastic-free outer packaging\"\n      }\n    ],\n    \"key_benefits\": [\n      \"Clinically shown to reduce diaper rash incidence by up to 40% versus standard diapers\",\n      \"12 hours of reliable dryness for uninterrupted sleep through the night\",\n      \"Dermatologist-tested and pediatrician-recommended for newborns (size 0+)\",\n      \"Allows full range of motion for crawling, rolling, and play without bulk or stiffness\"\n    ],\n    \"target_audience\": \"Health-conscious parents of infants and toddlers (0–3 years) who prioritize skin health, quality sleep, and premium comfort for their children\",\n    \"call_to_action\": {\n      \"primary\": \"Experience the CloudSoft Difference — Available now at Target, Amazon, Walmart, and Buy Buy Baby\",\n      \"secondary\": \"Request a free trial pack at www.cloudsoftdiapers.com\",\n      \"promotional_offer\": \"New customers receive 20% off their first order with code SOFTCLOUD20\"\n    },\n    \"brand_voice\": \"Warm, nurturing, trustworthy, and premium yet approachable\",\n    \"recommended_channels\": [\n      \"Instagram and Facebook parenting communities\",\n      \"Mommy-and-me blogs and influencer partnerships\",\n      \"Pediatrician office brochures and sample programs\",\n      \"Baby registry completion offers (Amazon, Target, Babylist)\"\n    ]\n  }\n}",
+    "passed": true,
+    "instruction_scores": {
+      "detectable_format:json_format": true
+    }
+  },
+  {
+    "model": "mistral-large-4",
+    "prompt": "Write a story of exactly 2 paragraphs about a man who wakes up one day and realizes that he's inside a video game. Separate the paragraphs with the markdown divider: ***",
+    "response": "Marcus opened his eyes and the world loaded in chunks around him—grass textures popping into existence block by block, the sky rendering with a slight delay, and floating damage numbers appearing when a bird flew past too close. He looked down at his hands and saw the translucent blue UI overlay tracing his fingers, the stamina bar hovering above his head like a sickly halo, and realized with a cold jolt that his reflection in the nearby pond didn't blink at the same time he did.\n\n***\n\nHe tried to scream but only got a chat bubble that said \"???\" while an NPC merchant approached on a looping path, repeating \"Greetings, traveler! Care to buy something?\" for the hundredth time. Marcus ran toward what he thought was the edge of the map, but the invisible wall stopped him cold, and when he pressed his palm against it, his hand clipped halfway through the geometry, revealing the wireframe skeleton of the world beyond—an endless void of code and possibility where he was nothing more than a player character in someone else's save file.",
+    "passed": true,
+    "instruction_scores": {
+      "length_constraints:number_paragraphs": true
+    }
+  },
+  {
+    "model": "mistral-large-4",
+    "prompt": "Write a detailed review of the movie \"The Social Network\". Your entire response should be in English and all lower case (no capital letters whatsoever).",
+    "response": "the social network (2010) stands as one of the most compelling and sharply crafted films of the twenty-first century, directed by david fincher and written by aaron sorkin. the film chronicles the tumultuous founding of facebook by mark zuckerberg, exploring the legal battles, betrayals, and personal isolation that accompanied the rise of the world's largest social media platform.\n\nfincher's direction is masterful, utilizing a cold, clinical aesthetic that mirrors the detached nature of its protagonist. the pacing is rapid-fire and dialogue-driven, with sorkin's script delivering lines with the precision of a machine gun. the film moves through multiple timelines—the depositions, the founding of the company, and the various flashbacks—with seamless transitions that never lose the viewer.\n\njesse eisenberg delivers a career-defining performance as zuckerberg, portraying him not as a simple villain but as a complex, socially awkward genius whose intelligence is matched only by his inability to connect with others. his rapid speech patterns and defensive posture create a character who is simultaneously brilliant and deeply lonely. andrew garfield provides excellent support as eduardo saverin, zuckerberg's former best friend and the co-founder whose eventual betrayal forms the emotional core of the story. justin timberlake is charismatic and snake-like as sean parker, while armie hammer plays the winklevoss twins with hilarious arrogance.\n\nthe technical elements elevate the film to greatness. jeff cronenweth's cinematography bathes everything in cool, digital blues and greens that emphasize the sterile, artificial world of technology and wealth. trent reznor and atticus ross's electronic score pulses beneath every scene, creating an atmosphere of constant anxiety and restless energy.\n\nthematically, the social network is about more than just a website; it is a meditation on loneliness in the digital age, the cost of ambition, and the paradox of creating a tool meant to connect people while remaining completely isolated. the famous line about having \"five hundred million friends\" and no one to call when in trouble encapsulates the film's tragic irony.\n\nwhile some critics noted the film's unflattering portrayal of zuckerberg, the movie avoids simple moral judgments, instead presenting a nuanced look at genius and its consequences. it is a film about the birth of the modern era, where innovation moves faster than human relationships can adapt.\n\nin conclusion, the social network is a gripping, intellectually stimulating drama that remains relevant over a decade later. it combines sorkin's razor-sharp wit with fincher's precise visual style to create a masterpiece about the price of success in silicon valley.",
+    "passed": true,
+    "instruction_scores": {
+      "change_case:english_lowercase": true
+    }
+  },
+  {
+    "model": "mistral-large-4",
+    "prompt": "Write a short blog post about a trip to Japan using less than 300 words.",
+    "response": "Cherry Blossoms and Neon Nights: My Week in Japan\n\nTokyo greeted me with a sensory overload—neon signs buzzing against the twilight sky, the scent of ramen wafting from tiny alleyway stalls, and the organized chaos of Shibuya Crossing. I'd arrived during cherry blossom season, and the city felt almost magical.\n\nI spent my mornings exploring ancient temples. Senso-ji in Asakusa was breathtaking at dawn, the massive red lantern swaying gently while monks chanted inside. But it was Kyoto that stole my heart. Walking through the bamboo groves of Arashiyama at sunrise, I understood why poets have written about this place for centuries. The towering stalks swaying in the breeze felt like stepping into another world.\n\nFood was a revelation. I ate my weight in sushi at Tsukiji Outer Market—fresh tamago, melt-in-your-mouth tuna, and tamagoyaki still warm from the grill. But my favorite meal was a humble bowl of tonkotsu ramen in a six-seat shop in Shinjuku, where the chef silently handed me my bowl with a nod.\n\nJapan taught me that beauty lives in the details: the precision of a tea ceremony, the way vending machines offer hot corn soup on cold mornings, the politeness of strangers bowing slightly as they pass. I left with a full stomach, an empty wallet, and a promise to return.",
+    "passed": true,
+    "instruction_scores": {
+      "length_constraints:number_words": true
+    }
+  },
+  {
+    "model": "mistral-large-4",
+    "prompt": "Please provide the names of 5 famous moms in JSON format. Please, use any interesting or weird tone. Your entire output should just contain a JSON block, nothing else.",
+    "response": "{\n  \"maternal_units_deployed\": [\n    {\"subject\": \"Kris Jenner\", \"classification\": \"Kardashian Overlord\"},\n    {\"subject\": \"Beyoncé\", \"classification\": \"Hive Queen with Offspring\"},\n    {\"subject\": \"Angelina Jolie\", \"classification\": \"Global Collector of Tiny Humans\"},\n    {\"subject\": \"Michelle Obama\", \"classification\": \"Mom-in-Chief Emeritus\"},\n    {\"subject\": \"Serena Williams\", \"classification\": \"Grand Slam Mother\"}\n  ],\n  \"status\": \"5 famous moms detected 🍼👑\"\n}",
+    "passed": true,
+    "instruction_scores": {
+      "detectable_format:json_format": true
+    }
+  },
+  {
+    "model": "mistral-large-4",
+    "prompt": "What is a name that people call God? Please give exactly two different responses. Separate the responses with 6 asterisk symbols: ******.",
+    "response": "Yahweh******Allah",
+    "passed": true,
+    "instruction_scores": {
+      "combination:two_responses": true
+    }
+  },
+  {
+    "model": "mistral-large-4",
+    "prompt": "Write two jokes about rockets. Do not contain commas in your response. Separate the two jokes with 6 asterisk symbols: ******.",
+    "response": "Why are rockets so good at math? Because they know how to count down!\n******\nWhy did the rocket go to school? To get a little brighter!",
+    "passed": true,
+    "instruction_scores": {
+      "punctuation:no_comma": true,
+      "combination:two_responses": true
+    }
+  },
+  {
+    "model": "mistral-large-4",
+    "prompt": "Are hamburgers sandwiches? Please respond using only the Kannada language, no other language is allowed.",
+    "response": "",
+    "passed": false,
+    "instruction_scores": {
+      "language:response_language": false
+    }
+  }
+]

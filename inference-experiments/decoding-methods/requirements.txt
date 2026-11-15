@@ -1,0 +1,5 @@
+# 학습용 가상환경에만 설치한다. vLLM은 별도 GPU 환경에서 실행한다.
+# GPU 실행을 확인하지 않아 임의의 검증 버전을 고정하지 않는다.
+# 노트북의 CLI/API는 Speculators v0.9.0 소스와 대조했다.
+speculators
+ipykernel
