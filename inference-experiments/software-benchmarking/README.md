@@ -1,6 +1,10 @@
 # 추론 소프트웨어와 성능 측정
 
-Inference Engineering 4장에 맞춰 프레임워크 직접 실행, 추론 엔진 직접 실행, HTTP 서버의 부하 측정을 진행한다.
+[4장 발표 자료](chapter-04.html)는 폴더를 내려받은 뒤 브라우저에서 열고 아래로 스크롤하며 읽습니다. [커널과 커널 융합](kernel-fusion.html)은 사진 예제만 따로 볼 때 사용합니다.
+
+[H100 네 장에서 Gemma 4와 DFlash 비교하기](vllm-gemma4-dflash.ipynb)에서는 같은 회의 공지로 Gemma 단독 실행과 DFlash를 비교합니다. 두 모델의 로컬 경로와 vLLM 환경 준비 방법은 노트북 안에 있습니다.
+
+아래 두 노트북은 Qwen3.8-27B를 사용합니다. 입력과 출력 길이, 동시 요청 수를 바꾸며 성능을 측정합니다.
 
 | 환경 | 노트북 | 직접 실행 | 서버 실행 |
 | --- | --- | --- | --- |
@@ -9,7 +13,7 @@ Inference Engineering 4장에 맞춰 프레임워크 직접 실행, 추론 엔�
 
 H100 4개가 여러 서버에 나뉜 구성은 포함하지 않는다. H100 4개와 B300 1개를 비교한 서버 결과에는 GPU 수와 GPU 간 통신 차이도 포함된다.
 
-## 준비
+## Qwen 실습 준비
 
 - Linux에서 각 GPU를 지원하는 vLLM·PyTorch·CUDA 환경과 Jupyter 커널을 사용한다.
 - 노트북은 기존 vLLM 가상환경의 Python 커널로 실행한다. 패키지를 자동 설치하거나 교체하지 않는다.
@@ -74,4 +78,4 @@ python scripts/check_notebooks.py
 - [Qwen3.8-27B](https://huggingface.co/Qwen/Qwen3.8-27B): Apache-2.0 모델.
 - [PagedAttention 논문](https://arxiv.org/abs/2309.06180)
 
-실습 설명과 코드는 별도로 작성했으며 교재 본문·그림과 논문 그림은 포함하지 않는다.
+발표에 사용한 사진과 그림의 출처는 각 그림 아래에 표시했습니다.
