@@ -2,7 +2,7 @@
 
 [4장 발표 자료](https://teimakes.github.io/ai-cookbook/)를 브라우저에서 바로 열 수 있습니다. [실습 노트북 목록](https://teimakes.github.io/ai-cookbook/#lab)에서 장비에 맞는 노트북을 선택하세요. [커널과 커널 융합](https://teimakes.github.io/ai-cookbook/kernel-fusion.html)은 사진 예제만 따로 볼 때 사용합니다.
 
-[H100 네 장에서 Gemma 4와 DFlash 비교하기](vllm-gemma4-dflash.ipynb)에서는 같은 회의 공지로 Gemma 단독 실행과 DFlash를 비교합니다. 두 모델의 로컬 경로와 vLLM 환경 준비 방법은 노트북 안에 있습니다.
+[H100 네 장에서 Gemma 4와 DFlash 비교하기](vllm-gemma4-dflash.ipynb)에서는 같은 질문으로 Gemma 단독 실행과 DFlash의 답변, 처리량, 전체 응답 시간을 비교합니다. 개념 설명은 20분입니다. 발표 전에 노트북 1~6절을 측정하고 7절까지 출력을 저장한 뒤, 현장에서는 7절만 10분간 시연합니다.
 
 아래 두 노트북은 Qwen3.8-27B를 사용합니다. 입력과 출력 길이, 동시 요청 수를 바꾸며 성능을 측정합니다.
 
