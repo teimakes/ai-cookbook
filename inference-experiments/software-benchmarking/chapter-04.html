@@ -151,7 +151,8 @@ html { scroll-padding-top: 66px; }
 <li><a href="#engines"><b>4.3</b> 추론 엔진</a></li>
 <li><a href="#dynamo"><b>4.4</b> NVIDIA Dynamo</a></li>
 <li><a href="#metrics"><b>4.5</b> 벤치마킹과 부하 테스트</a></li>
-<li><a href="#dflash"><b>실습</b> Gemma 4 31B IT와 DFlash</a></li></ol></div>
+<li><a href="#dflash"><b>실습</b> Gemma 4 31B IT와 DFlash</a></li>
+<li><a href="#lab">실습 노트북 목록</a></li></ol></div>
 <p class="source">Philip Kiely, <i>Inference Engineering</i>, 4장. <a href="https://corazzon.github.io/inference-engineering/ko/04-소프트웨어.html">한국어판</a> · <a href="https://www.baseten.co/inference-engineering/book/04-software">원서</a></p>
 </section>
 <section class="slide study" id="basics" aria-labelledby="heading-basics">
@@ -347,6 +348,7 @@ gray = dark @ torch.tensor(
 <section class="slide study" id="workload" aria-labelledby="heading-workload">
 <div><p class="section">4.5 · 부하 테스트</p><h2 id="heading-workload">부하 테스트에서 바꿀 조건</h2><p class="lead">부하 테스트는 서버에 여러 요청을 보내고 응답 시간과 처리량을 재는 실험입니다. 어떤 조건이 결과에 영향을 줬는지 보려면 한 번에 하나씩 바꿉니다.</p></div>
 <table class="lesson-table"><caption>H100용 Qwen 노트북의 세 실험</caption><thead><tr><th scope="col">바꾸는 조건</th><th scope="col">고정하는 조건</th><th scope="col">먼저 비교할 값</th></tr></thead><tbody><tr><th scope="row">동시 요청 상한 1, 4, 16, 32건</th><td data-label="고정하는 조건">입력 512토큰 · 출력 128토큰</td><td data-label="먼저 비교할 값">초당 출력 토큰 수와 전체 응답 시간 p95</td></tr><tr><th scope="row">입력 128, 512, 2,048토큰</th><td data-label="고정하는 조건">동시 4건 · 출력 128토큰</td><td data-label="먼저 비교할 값">첫 토큰을 받는 시간(TTFT)</td></tr><tr><th scope="row">출력 32, 128, 512토큰</th><td data-label="고정하는 조건">동시 4건 · 입력 512토큰</td><td data-label="먼저 비교할 값">전체 응답 시간과 토큰당 시간(TPOT)</td></tr></tbody></table><p>동시 4건은 답을 기다리는 요청이 최대 네 건이라는 뜻입니다. 초당 4건은 1초에 새 요청이 네 건 들어온다는 뜻입니다. 실습에서는 동시 요청 수에 상한을 둡니다.</p>
+<p class="source"><a href="https://github.com/teimakes/ai-cookbook/blob/main/inference-experiments/software-benchmarking/h100.ipynb" target="_blank" rel="noopener">H100 부하 테스트 노트북</a> · <a href="https://github.com/teimakes/ai-cookbook/blob/main/inference-experiments/software-benchmarking/b300.ipynb" target="_blank" rel="noopener">B300 부하 테스트 노트북</a></p>
 </section>
 
 <section class="slide study" id="tools" aria-labelledby="heading-tools">
@@ -376,11 +378,12 @@ gray = dark @ torch.tensor(
 <section class="slide study" id="experiment" aria-labelledby="heading-experiment">
 <div><p class="section">실습 · Gemma 4 31B IT와 DFlash</p><h2 id="heading-experiment">DFlash의 효과를 비교하는 실험</h2><p class="lead">한 서버에서 Gemma 단독 실행을 먼저 측정하고, 서버를 종료한 뒤 같은 GPU에서 DFlash를 켜고 반복합니다.</p></div>
 <table class="lesson-table"><caption>두 설정 모두 H100 네 장, 동일한 Gemma 가중치와 출력 길이 상한을 사용합니다.</caption><thead><tr><th scope="col">비교 항목</th><th scope="col">실습 방법</th><th scope="col">결과 읽기</th></tr></thead><tbody><tr><th scope="row">응답 내용</th><td data-label="실습 방법">같은 공지를 주고 변경된 회의 시간을 묻습니다.</td><td data-label="결과 읽기">두 답이 모두 목요일 오후 4시를 안내하는지 읽습니다.</td></tr><tr><th scope="row">응답 시간과 처리량</th><td data-label="실습 방법">같은 질문 8개를 세 번씩 보냅니다. 동시 요청 상한은 1건과 4건입니다.</td><td data-label="결과 읽기">각 상한에서 초당 출력 토큰 수와 전체 응답 시간 p95를 함께 봅니다.</td></tr><tr><th scope="row">후보 채택률</th><td data-label="실습 방법">측정 중 제안한 토큰 수와 그중 사용한 수를 셉니다.</td><td data-label="결과 읽기">예를 들어 100개 중 70개를 썼다면 70%입니다. 빨라졌는지는 측정 시간으로 판단합니다.</td></tr></tbody></table><p class="fine">출력이 짧거나 보조 모델의 예상이 자주 틀리면 추가 계산의 효과가 작습니다. 보조 모델 가중치를 올릴 GPU 메모리도 필요합니다.</p>
+<p class="source"><a href="https://github.com/teimakes/ai-cookbook/blob/main/inference-experiments/software-benchmarking/vllm-gemma4-dflash.ipynb" target="_blank" rel="noopener">Gemma 4와 DFlash 실습 노트북</a></p>
 </section>
 
 <section class="slide study" id="lab" aria-labelledby="heading-lab">
-<div><p class="section">실습 자료</p><h2 id="heading-lab">발표에 사용한 실습 노트북</h2><p class="lead">JupyterLab에서 해당 파일을 열고 위에서부터 실행합니다. Gemma 실습은 모델을 저장한 로컬 경로 두 개를 지정해 시작합니다.</p></div>
-<dl class="rows"><div><dt><a href="vllm-gemma4-dflash.ipynb">Gemma 4와 DFlash · H100 네 장</a></dt><dd>사진 한 픽셀을 계산하고 모델 파일과 토큰을 확인합니다. 같은 회의 공지로 Gemma 단독 실행과 DFlash의 답변, 응답 시간, 처리량을 비교합니다.</dd></div><div><dt><a href="h100.ipynb">Qwen 부하 테스트 · H100 네 장</a></dt><dd>GPU 한 장에서 Transformers와 vLLM을 비교한 뒤 네 장으로 서버를 실행합니다. 동시 요청 수와 입력·출력 길이를 각각 바꿉니다.</dd></div><div><dt><a href="b300.ipynb">Qwen 부하 테스트 · B300 한 장</a></dt><dd>같은 Qwen 실험을 B300 한 장에서 실행합니다. H100 서버와 결과를 비교할 때는 GPU 기종과 수가 모두 다르다는 점을 함께 기록합니다.</dd></div></dl>
+<div><p class="section">실습 자료</p><h2 id="heading-lab">발표에 사용한 실습 노트북</h2><p class="lead">실습 제목을 누르면 GitHub에서 노트북이 새 탭으로 열립니다. 코드를 실행하려면 해당 GPU 서버의 JupyterLab에서 파일을 엽니다. Gemma 실습은 모델을 저장한 로컬 경로 두 개를 지정해 시작합니다.</p></div>
+<dl class="rows"><div><dt><a href="https://github.com/teimakes/ai-cookbook/blob/main/inference-experiments/software-benchmarking/vllm-gemma4-dflash.ipynb" target="_blank" rel="noopener">Gemma 4와 DFlash · H100 네 장</a></dt><dd>사진 한 픽셀을 계산하고 모델 파일과 토큰을 확인합니다. 같은 회의 공지로 Gemma 단독 실행과 DFlash의 답변, 응답 시간, 처리량을 비교합니다.</dd></div><div><dt><a href="https://github.com/teimakes/ai-cookbook/blob/main/inference-experiments/software-benchmarking/h100.ipynb" target="_blank" rel="noopener">Qwen 부하 테스트 · H100 네 장</a></dt><dd>GPU 한 장에서 Transformers와 vLLM을 비교한 뒤 네 장으로 서버를 실행합니다. 동시 요청 수와 입력·출력 길이를 각각 바꿉니다.</dd></div><div><dt><a href="https://github.com/teimakes/ai-cookbook/blob/main/inference-experiments/software-benchmarking/b300.ipynb" target="_blank" rel="noopener">Qwen 부하 테스트 · B300 한 장</a></dt><dd>같은 Qwen 실험을 B300 한 장에서 실행합니다. H100 서버와 결과를 비교할 때는 GPU 기종과 수가 모두 다르다는 점을 함께 기록합니다.</dd></div></dl>
 <p class="source"><a href="https://corazzon.github.io/inference-engineering/ko/04-소프트웨어.html">Inference Engineering 4장</a></p>
 </section>
 </main>

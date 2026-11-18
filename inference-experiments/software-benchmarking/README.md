@@ -1,6 +1,6 @@
 # 추론 소프트웨어와 성능 측정
 
-[4장 발표 자료](chapter-04.html)는 폴더를 내려받은 뒤 브라우저에서 열고 아래로 스크롤하며 읽습니다. [커널과 커널 융합](kernel-fusion.html)은 사진 예제만 따로 볼 때 사용합니다.
+[4장 발표 자료](https://teimakes.github.io/ai-cookbook/)를 브라우저에서 바로 열 수 있습니다. [실습 노트북 목록](https://teimakes.github.io/ai-cookbook/#lab)에서 장비에 맞는 노트북을 선택하세요. [커널과 커널 융합](https://teimakes.github.io/ai-cookbook/kernel-fusion.html)은 사진 예제만 따로 볼 때 사용합니다.
 
 [H100 네 장에서 Gemma 4와 DFlash 비교하기](vllm-gemma4-dflash.ipynb)에서는 같은 회의 공지로 Gemma 단독 실행과 DFlash를 비교합니다. 두 모델의 로컬 경로와 vLLM 환경 준비 방법은 노트북 안에 있습니다.
 
